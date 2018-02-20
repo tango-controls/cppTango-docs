@@ -1,18 +1,33 @@
 var NAVTREE =
 [
   [ "Tango Core Classes Reference", "index.html", [
-    [ "Deprecated List", "da/d58/deprecated.html", null ],
-    [ "Modules", "modules.html", "modules" ],
-    [ "Namespaces", null, [
-      [ "Namespace List", "namespaces.html", "namespaces" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", "namespacemembers_dup" ],
-        [ "Functions", "namespacemembers_func.html", null ],
-        [ "Variables", "namespacemembers_vars.html", "namespacemembers_vars" ],
-        [ "Typedefs", "namespacemembers_type.html", "namespacemembers_type" ],
-        [ "Enumerations", "namespacemembers_enum.html", null ],
-        [ "Enumerator", "namespacemembers_eval.html", null ]
+    [ "Introduction", "index.html#intro_sec", null ],
+    [ "Exception", "except.html", [
+      [ "Tango API exceptions", "except.html#Ex", [
+        [ "The ConnectionFailed exception", "except.html#ConFailed", null ],
+        [ "The CommunicationFailed exception", "except.html#CommFailed", null ],
+        [ "The WrongNameSyntax exception", "except.html#WrongName", null ],
+        [ "The NonDbDevice exception", "except.html#NonDb", null ],
+        [ "The WrongData exception", "except.html#WrongData", null ],
+        [ "The NonSupportedFeature exception", "except.html#NonSupported", null ],
+        [ "The AsynCall exception", "except.html#AsynCall", null ],
+        [ "The AsynReplyNotArrived exception", "except.html#AsynReply", null ],
+        [ "The EventSystemFailed exception", "except.html#EventFailed", null ],
+        [ "The NamedDevFailedList exception", "except.html#NamedDevFailed", null ],
+        [ "The DeviceUnlocked exception", "except.html#DevUnlock", null ]
       ] ]
+    ] ],
+    [ "Reconnection and exception", "recon.html", [
+      [ "API reconnection", "recon.html#Tango", null ]
+    ] ],
+    [ "Deprecated List", "deprecated.html", null ],
+    [ "Modules", "modules.html", "modules" ],
+    [ "Namespace Members", "namespacemembers.html", [
+      [ "All", "namespacemembers.html", null ],
+      [ "Functions", "namespacemembers_func.html", null ],
+      [ "Typedefs", "namespacemembers_type.html", null ],
+      [ "Enumerations", "namespacemembers_enum.html", null ],
+      [ "Enumerator", "namespacemembers_eval.html", null ]
     ] ],
     [ "Classes", null, [
       [ "Class List", "annotated.html", "annotated" ],
@@ -21,19 +36,7 @@ var NAVTREE =
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", "functions_vars" ],
-        [ "Typedefs", "functions_type.html", null ],
-        [ "Enumerations", "functions_enum.html", null ],
-        [ "Enumerator", "functions_eval.html", null ],
         [ "Related Functions", "functions_rela.html", null ]
-      ] ]
-    ] ],
-    [ "Files", null, [
-      [ "File List", "files.html", "files" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ],
-        [ "Typedefs", "globals_type.html", null ],
-        [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
   ] ]
@@ -42,20 +45,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d2/d1d/classTango_1_1Command.html#a5f3653dc4a432fea2fb66c7e7dc2e136",
-"d3/d62/classTango_1_1DeviceImpl.html#a2178a2b731db74bcbee66e774dff4d9a",
-"d4/d13/tango__const_8h.html",
-"d4/d13/tango__const_8h.html#a57f955df970c64f91e641f08ad8a8e22",
-"d4/d13/tango__const_8h.html#a96f177aabd7459d676af9401a2297a0e",
-"d4/d13/tango__const_8h.html#af62f13f41cce4efa8b08326fb1462804",
-"d4/dcd/classTango_1_1DeviceClass.html#af84e5725fbc6e5d97219c3cdc9169ed9",
-"d6/dad/classTango_1_1Attribute.html#a2246b2de4a4cb23031975fac5a17ea66",
-"d7/d41/classTango_1_1MultiAttrProp.html#a790b98a4d746feed7d44a683240353b0",
-"d8/dcc/namespacestd.html",
-"d9/ddc/devapi_8h.html#gad6df317aebc920b1e9489cc83d80f2c0",
-"db/da8/classTango_1_1WAttribute.html#a072b84cc51584a41264643264d5bb6c2",
-"dd/d39/structTango_1_1LockerInfo.html#ac19a902ad6cc0fe15e74485cc09d3f5a",
-"df/d46/classTango_1_1GroupElement.html#aa4ed03d3347901cecadbeff4c9b465a3"
+"classTango_1_1CallBack.html#a6a794901a14f08b1cda918e1d18acce9",
+"classTango_1_1DbDatum.html#a6c4f542a1f33e2ff5e7f2e16aded5679",
+"classTango_1_1DeviceImpl.html#a74931b906e58ca078cb93746ee620016",
+"classTango_1_1Device__2Impl.html#a4348a6f642052b9eeaca07b34877f3e7",
+"classTango_1_1SpectrumAttr.html",
+"classTango_1_1WAttribute.html#a9d46d82cb48de388e34671f1276b3723",
+"structTango_1_1CommandInfo.html#a3750fb7df117913285dcf4db9a36b037"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

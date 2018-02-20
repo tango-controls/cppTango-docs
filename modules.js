@@ -1,7 +1,7 @@
 var modules =
 [
-    [ "Server classes", "da/d64/group__Server.html", "da/d64/group__Server" ],
-    [ "Client classes", "d1/d45/group__Client.html", "d1/d45/group__Client" ],
-    [ "Operator overloading functions", "dd/dd6/group__Ope.html", "dd/dd6/group__Ope" ],
-    [ "Easy printing operator overloading functions", "d1/d56/group__Eas.html", "d1/d56/group__Eas" ]
+    [ "Server classes", "group__Server.html", "group__Server" ],
+    [ "Client classes", "group__Client.html", "group__Client" ],
+    [ "Operator overloading functions", "group__Ope.html", "group__Ope" ],
+    [ "Easy printing operator overloading functions", "group__Eas.html", "group__Eas" ]
 ];
