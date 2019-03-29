@@ -1,7 +1,7 @@
 var classTango_1_1GroupReply =
 [
-    [ "dev_name", "classTango_1_1GroupReply.html#a4fe578ba1fcd03239b7dc589ffc1af77", null ],
-    [ "get_err_stack", "classTango_1_1GroupReply.html#a47419919cad3f689140757bd09eae457", null ],
-    [ "has_failed", "classTango_1_1GroupReply.html#aec0def5a9df786134dc9cb8c66c21cb8", null ],
-    [ "obj_name", "classTango_1_1GroupReply.html#a13564b3e6df04a5257b2592b94a07d88", null ]
+    [ "dev_name", "classTango_1_1GroupReply.html#a2fa1816d6756265a01cac8c9e2d9b666", null ],
+    [ "get_err_stack", "classTango_1_1GroupReply.html#a848ea423dd27d13e865f3456a8ddc75d", null ],
+    [ "has_failed", "classTango_1_1GroupReply.html#a43f7fdd85b44559a65332784d1cba5a5", null ],
+    [ "obj_name", "classTango_1_1GroupReply.html#ad905b10e982096cf724f5ec04788e3a0", null ]
 ];

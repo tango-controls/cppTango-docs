@@ -1,5 +1,6 @@
 <map id="Tango::Attr" name="Tango::Attr">
-<area shape="rect" id="node2" href="$classTango_1_1SpectrumAttr.html" title="User class to create a one dimension attribute object. " alt="" coords="5,80,147,107"/>
-<area shape="rect" id="node3" href="$classTango_1_1ImageAttr.html" title="User class to create a two dimensions attribute object. " alt="" coords="15,155,137,181"/>
-<area shape="rect" id="node4" href="$classTango_1_1FwdAttr.html" title="User class to create a forwarded attribute object. " alt="" coords="21,229,131,256"/>
+<area shape="rect" id="node1" title="User class to create a no dimension attribute object." alt="" coords="33,5,120,32"/>
+<area shape="rect" id="node2" href="$classTango_1_1SpectrumAttr.html" title="User class to create a one dimension attribute object." alt="" coords="5,80,148,107"/>
+<area shape="rect" id="node3" href="$classTango_1_1ImageAttr.html" title="User class to create a two dimensions attribute object." alt="" coords="15,155,138,181"/>
+<area shape="rect" id="node4" href="$classTango_1_1FwdAttr.html" title="User class to create a forwarded attribute object." alt="" coords="21,229,133,256"/>
 </map>

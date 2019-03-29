@@ -2,8 +2,8 @@ var classTango_1_1DevicePipeBlob =
 [
     [ "DevicePipeBlob", "classTango_1_1DevicePipeBlob.html#a5bfde9fdf42756efc933898124e64c1a", null ],
     [ "DevicePipeBlob", "classTango_1_1DevicePipeBlob.html#ad93b7bf767381d3883a1460cad4ff381", null ],
-    [ "exceptions", "classTango_1_1DevicePipeBlob.html#ac1573563218260fa5211c66c367d85df", null ],
     [ "exceptions", "classTango_1_1DevicePipeBlob.html#aebf99ce7518695ef361549f729f8b305", null ],
+    [ "exceptions", "classTango_1_1DevicePipeBlob.html#ac1573563218260fa5211c66c367d85df", null ],
     [ "get_data_elt_name", "classTango_1_1DevicePipeBlob.html#a73058a3dbe75fa859caad08c56b9e83f", null ],
     [ "get_data_elt_names", "classTango_1_1DevicePipeBlob.html#a2becdbba06b82cf962423f937d54b608", null ],
     [ "get_data_elt_nb", "classTango_1_1DevicePipeBlob.html#a85220fe9f2351d7a43dc4f7fdf4cd3d5", null ],

@@ -1,4 +1,5 @@
 <map id="Tango::DataReadyEventData" name="Tango::DataReadyEventData">
-<area shape="rect" id="node2" href="$classTango_1_1DeviceProxy.html" title="High level class which provides the client with an easy&#45;to&#45;use interface to TANGO devices..." alt="" coords="31,81,166,108"/>
-<area shape="rect" id="node3" href="$classTango_1_1Connection.html" title="Base class for Tango device access. " alt="" coords="34,5,163,32"/>
+<area shape="rect" id="node1" title="Data ready event callback execution data." alt="" coords="5,171,200,197"/>
+<area shape="rect" id="node2" href="$classTango_1_1DeviceProxy.html" title="High level class which provides the client with an easy&#45;to&#45;use interface to TANGO devices." alt="" coords="32,81,173,108"/>
+<area shape="rect" id="node3" href="$classTango_1_1Connection.html" title="Base class for Tango device access." alt="" coords="37,5,169,32"/>
 </map>

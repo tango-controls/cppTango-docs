@@ -3,9 +3,9 @@ var group__Grp =
     [ "Group", "classTango_1_1Group.html", [
       [ "Group", "classTango_1_1Group.html#aa1bcfe79af9522faa65449efb128fc3e", null ],
       [ "~Group", "classTango_1_1Group.html#acd7a0b40d37852923131e9bce68dd9ff", null ],
-      [ "add", "classTango_1_1Group.html#a2cbaa3bf6cecdb6fb33a387c79556e58", null ],
       [ "add", "classTango_1_1Group.html#ad0cae4533d2ab5f218d6b65748f8374f", null ],
       [ "add", "classTango_1_1Group.html#a633d0ced915368b8b084adb3a215cca5", null ],
+      [ "add", "classTango_1_1Group.html#a2cbaa3bf6cecdb6fb33a387c79556e58", null ],
       [ "command_inout", "classTango_1_1Group.html#a8511861bcd0723b9e726e2bfaac6de3a", null ],
       [ "command_inout", "classTango_1_1Group.html#ab02f116ab2fcaed5850b0301dd8095a7", null ],
       [ "command_inout", "classTango_1_1Group.html#ae50c9d4d35e13d374dfc22afb6f6ab01", null ],
@@ -34,11 +34,11 @@ var group__Grp =
       [ "remove_all", "classTango_1_1Group.html#a12404b76c3e64df47467a1260591e7df", null ],
       [ "set_timeout_millis", "classTango_1_1Group.html#a92242b89511557c3296480ee19b790b2", null ],
       [ "write_attribute", "classTango_1_1Group.html#a64da6f972d7dca15b192c66226e3d4c7", null ],
-      [ "write_attribute", "classTango_1_1Group.html#ac05e427721de6903871b6c2dc505dec7", null ],
       [ "write_attribute", "classTango_1_1Group.html#a5b513a1564a1a4f9e5482dfcef528d0c", null ],
+      [ "write_attribute", "classTango_1_1Group.html#ac05e427721de6903871b6c2dc505dec7", null ],
       [ "write_attribute_asynch", "classTango_1_1Group.html#a2ead1c134a086855da1e809aa8f13d03", null ],
-      [ "write_attribute_asynch", "classTango_1_1Group.html#a2edbe29d80b0c686840c01bac7304197", null ],
       [ "write_attribute_asynch", "classTango_1_1Group.html#a187f0b29e02bf82b74f21b55c4252d62", null ],
+      [ "write_attribute_asynch", "classTango_1_1Group.html#a2edbe29d80b0c686840c01bac7304197", null ],
       [ "write_attribute_reply", "classTango_1_1Group.html#aa300f78715baea10d390b7e7489e0506", null ]
     ] ],
     [ "GroupAttrReply", "classTango_1_1GroupAttrReply.html", [
@@ -46,7 +46,7 @@ var group__Grp =
       [ "operator>>", "classTango_1_1GroupAttrReply.html#a421f7a196fc46f20b76a2124da30de95", null ]
     ] ],
     [ "GroupAttrReplyList", "classTango_1_1GroupAttrReplyList.html", [
-      [ "has_failed", "classTango_1_1GroupAttrReplyList.html#a1737797b7a4585b948752ef80c915fb2", null ],
+      [ "has_failed", "classTango_1_1GroupAttrReplyList.html#a89e5381c98c2b505bd0b8b80a7250d1b", null ],
       [ "reset", "classTango_1_1GroupAttrReplyList.html#a27620a4010723a1649c0dd810b4e1367", null ]
     ] ],
     [ "GroupCmdReply", "classTango_1_1GroupCmdReply.html", [
@@ -56,17 +56,17 @@ var group__Grp =
       [ "operator>>", "classTango_1_1GroupCmdReply.html#a54b600d46c948acd7d1943f6d9738943", null ]
     ] ],
     [ "GroupCmdReplyList", "classTango_1_1GroupCmdReplyList.html", [
-      [ "has_failed", "classTango_1_1GroupCmdReplyList.html#a453e217deecfd463162892d471f181d6", null ],
+      [ "has_failed", "classTango_1_1GroupCmdReplyList.html#a6369a7c800544c2013dcedbc30ad378f", null ],
       [ "reset", "classTango_1_1GroupCmdReplyList.html#a30946c9b34cf1275f3e4b442652935e2", null ]
     ] ],
     [ "GroupReply", "classTango_1_1GroupReply.html", [
-      [ "dev_name", "classTango_1_1GroupReply.html#a4fe578ba1fcd03239b7dc589ffc1af77", null ],
-      [ "get_err_stack", "classTango_1_1GroupReply.html#a47419919cad3f689140757bd09eae457", null ],
-      [ "has_failed", "classTango_1_1GroupReply.html#aec0def5a9df786134dc9cb8c66c21cb8", null ],
-      [ "obj_name", "classTango_1_1GroupReply.html#a13564b3e6df04a5257b2592b94a07d88", null ]
+      [ "dev_name", "classTango_1_1GroupReply.html#a2fa1816d6756265a01cac8c9e2d9b666", null ],
+      [ "get_err_stack", "classTango_1_1GroupReply.html#a848ea423dd27d13e865f3456a8ddc75d", null ],
+      [ "has_failed", "classTango_1_1GroupReply.html#a43f7fdd85b44559a65332784d1cba5a5", null ],
+      [ "obj_name", "classTango_1_1GroupReply.html#ad905b10e982096cf724f5ec04788e3a0", null ]
     ] ],
     [ "GroupReplyList", "classTango_1_1GroupReplyList.html", [
-      [ "has_failed", "classTango_1_1GroupReplyList.html#a7221a5debe8d58e6679ac2e234b3384d", null ],
+      [ "has_failed", "classTango_1_1GroupReplyList.html#ad215aebab55a2795aa4b6fd7d920e9f1", null ],
       [ "reset", "classTango_1_1GroupReplyList.html#afe1cb42828f48dd701a0e8d250470e93", null ]
     ] ]
 ];

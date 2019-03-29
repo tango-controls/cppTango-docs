@@ -1,5 +1,6 @@
 <map id="Tango::EventData" name="Tango::EventData">
-<area shape="rect" id="node2" href="$classTango_1_1DeviceProxy.html" title="High level class which provides the client with an easy&#45;to&#45;use interface to TANGO devices..." alt="" coords="5,81,140,108"/>
-<area shape="rect" id="node3" href="$classTango_1_1Connection.html" title="Base class for Tango device access. " alt="" coords="8,5,137,32"/>
-<area shape="rect" id="node4" href="$classTango_1_1DeviceAttribute.html" title="Fundamental type for sending an dreceiving data to and from device attributes. " alt="" coords="165,81,317,108"/>
+<area shape="rect" id="node1" title="Event callback execution data." alt="" coords="141,171,269,197"/>
+<area shape="rect" id="node2" href="$classTango_1_1DeviceProxy.html" title="High level class which provides the client with an easy&#45;to&#45;use interface to TANGO devices." alt="" coords="5,81,147,108"/>
+<area shape="rect" id="node3" href="$classTango_1_1Connection.html" title="Base class for Tango device access." alt="" coords="10,5,142,32"/>
+<area shape="rect" id="node4" href="$classTango_1_1DeviceAttribute.html" title="Fundamental type for sending an dreceiving data to and from device attributes." alt="" coords="171,81,327,108"/>
 </map>

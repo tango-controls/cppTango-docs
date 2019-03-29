@@ -7,9 +7,9 @@ var classTango_1_1AttrProp =
     [ "get_str", "classTango_1_1AttrProp.html#a265af5bc3684e8e88be9c027d4f095db", null ],
     [ "get_val", "classTango_1_1AttrProp.html#a0c80445d1ce52c04813778057ee1bc22", null ],
     [ "is_val", "classTango_1_1AttrProp.html#a558a0456d0591c428f438e86e0afb2e4", null ],
-    [ "operator=", "classTango_1_1AttrProp.html#a8c0c499c402739fd7449aa798b1609f5", null ],
     [ "operator=", "classTango_1_1AttrProp.html#a4412614f38098403a1872488c1a10a21", null ],
     [ "operator=", "classTango_1_1AttrProp.html#ab3099f7d395a5bee1bff018dd37dc8f7", null ],
+    [ "operator=", "classTango_1_1AttrProp.html#a8c0c499c402739fd7449aa798b1609f5", null ],
     [ "set_str", "classTango_1_1AttrProp.html#a089ac8d3f4a88385be4c41b69fa31ae1", null ],
     [ "set_str", "classTango_1_1AttrProp.html#ab08e7d7ba473008754b457a74a7fde87", null ],
     [ "set_val", "classTango_1_1AttrProp.html#a275eeb284b55ce66cefdc06b5436a784", null ]

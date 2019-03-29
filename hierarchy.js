@@ -79,7 +79,6 @@ var hierarchy =
     [ "Tango::DevIntrChangeEventData", "classTango_1_1DevIntrChangeEventData.html", null ],
     [ "Tango::DoubleAttrProp< T >", "classTango_1_1DoubleAttrProp.html", null ],
     [ "Tango::DoubleAttrProp< DevDouble >", "classTango_1_1DoubleAttrProp.html", null ],
-    [ "Tango::EncodedAttribute", "classTango_1_1EncodedAttribute.html", null ],
     [ "Tango::EventData", "classTango_1_1EventData.html", null ],
     [ "Tango::Except", "classTango_1_1Except.html", null ],
     [ "Tango::Group", "classTango_1_1Group.html", null ],
