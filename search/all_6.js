@@ -6,6 +6,5 @@ var searchData=
   ['fire_5fchange_5fevent',['fire_change_event',['../classTango_1_1Attribute.html#ae023edda1e0bf70d5fda7c3dc8160351',1,'Tango::Attribute']]],
   ['fire_5fevent',['fire_event',['../classTango_1_1Attribute.html#a13234bb32ef355601e45e6e942082873',1,'Tango::Attribute']]],
   ['format',['format',['../classTango_1_1Attribute.html#aa588971cf9c8a26a836c94c15de4d259',1,'Tango::Attribute::format()'],['../classTango_1_1MultiAttrProp.html#aa821f1d761c88fcaf3e1eb5d33ad5c1f',1,'Tango::MultiAttrProp::format()'],['../structTango_1_1DeviceAttributeConfig.html#ad3ec3ee2584e54354a9ad398432b7e63',1,'Tango::DeviceAttributeConfig::format()']]],
-  ['fwdattr',['FwdAttr',['../classTango_1_1FwdAttr.html#a9a241a7b91325152d9cb29e339ed816d',1,'Tango::FwdAttr']]],
-  ['fwdattr',['FwdAttr',['../classTango_1_1FwdAttr.html',1,'Tango']]]
+  ['fwdattr',['FwdAttr',['../classTango_1_1FwdAttr.html',1,'Tango::FwdAttr'],['../classTango_1_1FwdAttr.html#a9a241a7b91325152d9cb29e339ed816d',1,'Tango::FwdAttr::FwdAttr()']]]
 ];

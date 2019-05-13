@@ -2,9 +2,9 @@ var classTango_1_1MultiAttribute =
 [
     [ "MultiAttribute", "classTango_1_1MultiAttribute.html#aafd0cc4e89eeef1687b827da72b2db34", null ],
     [ "~MultiAttribute", "classTango_1_1MultiAttribute.html#ad0f2a8d4aaff4735c71456d7ef6ba440", null ],
+    [ "check_alarm", "classTango_1_1MultiAttribute.html#a4293e644ee659ccc6796f8bf4bea8e5a", null ],
     [ "check_alarm", "classTango_1_1MultiAttribute.html#af25a9b37449cc1e596bd5154c710c8df", null ],
     [ "check_alarm", "classTango_1_1MultiAttribute.html#a11c6b528f663726ccc8b39f0e0ddf967", null ],
-    [ "check_alarm", "classTango_1_1MultiAttribute.html#a4293e644ee659ccc6796f8bf4bea8e5a", null ],
     [ "get_alarm_list", "classTango_1_1MultiAttribute.html#a18553cf9309d7a92f2f8d1fe96b7c637", null ],
     [ "get_attr_by_ind", "classTango_1_1MultiAttribute.html#a30ec97afa15f663a53df8a07aab3b29f", null ],
     [ "get_attr_by_name", "classTango_1_1MultiAttribute.html#a7b35eb2625bb190393524de6971e2a84", null ],

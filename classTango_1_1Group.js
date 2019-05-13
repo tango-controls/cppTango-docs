@@ -2,9 +2,9 @@ var classTango_1_1Group =
 [
     [ "Group", "classTango_1_1Group.html#aa1bcfe79af9522faa65449efb128fc3e", null ],
     [ "~Group", "classTango_1_1Group.html#acd7a0b40d37852923131e9bce68dd9ff", null ],
-    [ "add", "classTango_1_1Group.html#a2cbaa3bf6cecdb6fb33a387c79556e58", null ],
     [ "add", "classTango_1_1Group.html#ad0cae4533d2ab5f218d6b65748f8374f", null ],
     [ "add", "classTango_1_1Group.html#a633d0ced915368b8b084adb3a215cca5", null ],
+    [ "add", "classTango_1_1Group.html#a2cbaa3bf6cecdb6fb33a387c79556e58", null ],
     [ "command_inout", "classTango_1_1Group.html#a8511861bcd0723b9e726e2bfaac6de3a", null ],
     [ "command_inout", "classTango_1_1Group.html#ab02f116ab2fcaed5850b0301dd8095a7", null ],
     [ "command_inout", "classTango_1_1Group.html#ae50c9d4d35e13d374dfc22afb6f6ab01", null ],
@@ -33,10 +33,10 @@ var classTango_1_1Group =
     [ "remove_all", "classTango_1_1Group.html#a12404b76c3e64df47467a1260591e7df", null ],
     [ "set_timeout_millis", "classTango_1_1Group.html#a92242b89511557c3296480ee19b790b2", null ],
     [ "write_attribute", "classTango_1_1Group.html#a64da6f972d7dca15b192c66226e3d4c7", null ],
-    [ "write_attribute", "classTango_1_1Group.html#ac05e427721de6903871b6c2dc505dec7", null ],
     [ "write_attribute", "classTango_1_1Group.html#a5b513a1564a1a4f9e5482dfcef528d0c", null ],
+    [ "write_attribute", "classTango_1_1Group.html#ac05e427721de6903871b6c2dc505dec7", null ],
     [ "write_attribute_asynch", "classTango_1_1Group.html#a2ead1c134a086855da1e809aa8f13d03", null ],
-    [ "write_attribute_asynch", "classTango_1_1Group.html#a2edbe29d80b0c686840c01bac7304197", null ],
     [ "write_attribute_asynch", "classTango_1_1Group.html#a187f0b29e02bf82b74f21b55c4252d62", null ],
+    [ "write_attribute_asynch", "classTango_1_1Group.html#a2edbe29d80b0c686840c01bac7304197", null ],
     [ "write_attribute_reply", "classTango_1_1Group.html#aa300f78715baea10d390b7e7489e0506", null ]
 ];

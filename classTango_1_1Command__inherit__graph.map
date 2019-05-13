@@ -1,6 +1,7 @@
 <map id="Tango::Command" name="Tango::Command">
-<area shape="rect" id="node2" href="$classTango_1_1TemplCommand.html" title="This class is a class representing a command in the template command model without input or output pa..." alt="" coords="176,78,335,105"/>
-<area shape="rect" id="node3" href="$classTango_1_1TemplCommandIn.html" title="This class is a class representing a command in the template command model with input parameter but w..." alt="" coords="393,5,563,47"/>
-<area shape="rect" id="node4" href="$classTango_1_1TemplCommandInOut.html" title="This class is a class representing a command in the template command model with output and input para..." alt="" coords="383,71,573,112"/>
-<area shape="rect" id="node5" href="$classTango_1_1TemplCommandOut.html" title="This class is a class representing a command in the template command model with output parameter but ..." alt="" coords="388,136,568,177"/>
+<area shape="rect" id="node1" title="This class is a class representing a command in the TANGO device server pattern." alt="" coords="5,78,132,105"/>
+<area shape="rect" id="node2" href="$classTango_1_1TemplCommand.html" title="This class is a class representing a command in the template command model without input or output pa..." alt="" coords="180,78,343,105"/>
+<area shape="rect" id="node3" href="$classTango_1_1TemplCommandIn.html" title="This class is a class representing a command in the template command model with input parameter but w..." alt="" coords="401,5,575,47"/>
+<area shape="rect" id="node4" href="$classTango_1_1TemplCommandInOut.html" title="This class is a class representing a command in the template command model with output and input para..." alt="" coords="391,71,585,112"/>
+<area shape="rect" id="node5" href="$classTango_1_1TemplCommandOut.html" title="This class is a class representing a command in the template command model with output parameter but ..." alt="" coords="397,136,579,177"/>
 </map>

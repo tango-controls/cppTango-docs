@@ -1,4 +1,5 @@
 <map id="Tango::Connection" name="Tango::Connection">
-<area shape="rect" id="node2" href="$classTango_1_1Database.html" title="A high level object which contains the link to the database. " alt="" coords="5,80,124,107"/>
-<area shape="rect" id="node3" href="$classTango_1_1DeviceProxy.html" title="High level class which provides the client with an easy&#45;to&#45;use interface to TANGO devices..." alt="" coords="148,80,283,107"/>
+<area shape="rect" id="node1" title="Base class for Tango device access." alt="" coords="78,5,210,32"/>
+<area shape="rect" id="node2" href="$classTango_1_1Database.html" title="A high level object which contains the link to the database." alt="" coords="5,80,128,107"/>
+<area shape="rect" id="node3" href="$classTango_1_1DeviceProxy.html" title="High level class which provides the client with an easy&#45;to&#45;use interface to TANGO devices." alt="" coords="152,80,293,107"/>
 </map>

@@ -4,7 +4,7 @@ var searchData=
   ['adm_5fdevice_5fname',['adm_device_name',['../classTango_1_1DeviceImpl.html#a57b6296e483e01cb62ffdce4eca0261a',1,'Tango::DeviceImpl']]],
   ['alarm_5fattr_5flist',['alarm_attr_list',['../classTango_1_1MultiAttribute.html#a2ae4228c1bc367771a1c7add54c60ff2',1,'Tango::MultiAttribute']]],
   ['alarms',['alarms',['../structTango_1_1AttributeInfoEx.html#aaf01f87192831893661acfa4b926d0c8',1,'Tango::AttributeInfoEx']]],
-  ['allowed_5fptr',['allowed_ptr',['../classTango_1_1TemplCommand.html#a1e3db2bfcf9cb38f76d4465ac575db5a',1,'Tango::TemplCommand']]],
+  ['allowed_5fptr',['allowed_ptr',['../classTango_1_1TemplCommand.html#aa416a6e7504369917757e18e3513f8cc',1,'Tango::TemplCommand']]],
   ['arch_5fevent',['arch_event',['../structTango_1_1AttributeEventInfo.html#aac8d39bbcab8839baf68267da64d850b',1,'Tango::AttributeEventInfo']]],
   ['archive_5fabs_5fchange',['archive_abs_change',['../classTango_1_1MultiAttrProp.html#a67b405f281daab10b7ad08d1a3d1a45c',1,'Tango::MultiAttrProp::archive_abs_change()'],['../structTango_1_1ArchiveEventInfo.html#ac3f5f5d04b5780fa72fb70e79548e7b1',1,'Tango::ArchiveEventInfo::archive_abs_change()']]],
   ['archive_5fperiod',['archive_period',['../classTango_1_1MultiAttrProp.html#a877a4666316b2ddd9794f248dbe6f9a4',1,'Tango::MultiAttrProp::archive_period()'],['../structTango_1_1ArchiveEventInfo.html#a8eab759c5b4d6913ecfb73ee7b7ad08e',1,'Tango::ArchiveEventInfo::archive_period()']]],

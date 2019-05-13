@@ -1,4 +1,5 @@
 <map id="Tango::TemplCommandOut&lt; OUTARG &gt;" name="Tango::TemplCommandOut&lt; OUTARG &gt;">
-<area shape="rect" id="node2" href="$classTango_1_1TemplCommand.html" title="This class is a class representing a command in the template command model without input or output pa..." alt="" coords="16,80,175,107"/>
-<area shape="rect" id="node3" href="$classTango_1_1Command.html" title="This class is a class representing a command in the TANGO device server pattern. " alt="" coords="34,5,157,32"/>
+<area shape="rect" id="node1" title="This class is a class representing a command in the template command model with output parameter but ..." alt="" coords="5,155,188,196"/>
+<area shape="rect" id="node2" href="$classTango_1_1TemplCommand.html" title="This class is a class representing a command in the template command model without input or output pa..." alt="" coords="15,80,178,107"/>
+<area shape="rect" id="node3" href="$classTango_1_1Command.html" title="This class is a class representing a command in the TANGO device server pattern." alt="" coords="33,5,160,32"/>
 </map>

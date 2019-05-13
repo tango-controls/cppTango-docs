@@ -20,5 +20,5 @@ var classTango_1_1TemplCommand =
     [ "execute", "classTango_1_1TemplCommand.html#ac0f9217e1c13600d3ba449ceb6a25cd3", null ],
     [ "is_allowed", "classTango_1_1TemplCommand.html#a203f6dc3223fd20f230af555e34848fd", null ],
     [ "set_type", "classTango_1_1TemplCommand.html#a95ab85ef01d98875e631a0fc40d1d414", null ],
-    [ "allowed_ptr", "classTango_1_1TemplCommand.html#a1e3db2bfcf9cb38f76d4465ac575db5a", null ]
+    [ "allowed_ptr", "classTango_1_1TemplCommand.html#aa416a6e7504369917757e18e3513f8cc", null ]
 ];

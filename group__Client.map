@@ -1,5 +1,6 @@
 <map id="Client classes" name="Client classes">
-<area shape="rect" id="node1" href="$group__Server.html" title="Server classes" alt="" coords="261,5,365,32"/>
-<area shape="rect" id="node2" href="$group__DBase.html" title="Database Client classes" alt="" coords="235,56,392,83"/>
-<area shape="rect" id="node4" href="$group__Grp.html" title="Group Client classes" alt="" coords="244,107,383,133"/>
+<area shape="rect" id="node1" href="$group__Server.html" title=" " alt="" coords="272,5,381,31"/>
+<area shape="rect" id="node2" href="$group__DBase.html" title=" " alt="" coords="244,55,409,80"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,55,111,80"/>
+<area shape="rect" id="node4" href="$group__Grp.html" title=" " alt="" coords="255,104,399,129"/>
 </map>

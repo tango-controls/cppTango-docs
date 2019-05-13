@@ -2,6 +2,7 @@ var classTango_1_1Attr =
 [
     [ "Attr", "classTango_1_1Attr.html#a7333f0eab1956673be866f4c7a2d44e8", null ],
     [ "Attr", "classTango_1_1Attr.html#ad03a6014aeefda86d8ee4d52659a6c39", null ],
+    [ "Attr", "classTango_1_1Attr.html#ad69e9aa5dcd4c22be0509ed72a01cd0d", null ],
     [ "~Attr", "classTango_1_1Attr.html#af280714a1ec4254e7ad7009eb0e8feda", null ],
     [ "is_archive_event", "classTango_1_1Attr.html#aff00859f5da6a7f48e7abe079491f12c", null ],
     [ "is_change_event", "classTango_1_1Attr.html#a9269546f4b25a6395efe8b93bdb8d07f", null ],

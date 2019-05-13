@@ -1,3 +1,4 @@
 <map id="Tango::GroupCmdReply" name="Tango::GroupCmdReply">
-<area shape="rect" id="node2" href="$classTango_1_1GroupReply.html" title="Base class for Group reply. " alt="" coords="19,5,150,32"/>
+<area shape="rect" id="node1" title="Single element group reply for a command execution." alt="" coords="5,80,168,107"/>
+<area shape="rect" id="node2" href="$classTango_1_1GroupReply.html" title="Base class for Group reply." alt="" coords="19,5,154,32"/>
 </map>

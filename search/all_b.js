@@ -18,8 +18,6 @@ var searchData=
   ['min_5fvalue_5fstr',['min_value_str',['../classTango_1_1Attribute.html#a5b92008335e38687b1e019b7e4f5cf89',1,'Tango::Attribute']]],
   ['min_5fwarning',['min_warning',['../classTango_1_1Attribute.html#a6f6121a07bb9790577d70a1ab9e3d0a5',1,'Tango::Attribute::min_warning()'],['../classTango_1_1MultiAttrProp.html#a7f756ab47237c2886e770e60b78c744a',1,'Tango::MultiAttrProp::min_warning()'],['../structTango_1_1AttributeAlarmInfo.html#af47fd458db3938f4242350cca362d473',1,'Tango::AttributeAlarmInfo::min_warning()']]],
   ['min_5fwarning_5fstr',['min_warning_str',['../classTango_1_1Attribute.html#aa8dae56da901c89854855281f80585b4',1,'Tango::Attribute']]],
-  ['multiattribute',['MultiAttribute',['../classTango_1_1MultiAttribute.html',1,'Tango']]],
-  ['multiattribute',['MultiAttribute',['../classTango_1_1MultiAttribute.html#aafd0cc4e89eeef1687b827da72b2db34',1,'Tango::MultiAttribute']]],
-  ['multiattrprop',['MultiAttrProp',['../classTango_1_1MultiAttrProp.html#a54da16eb6216e7833e4fd0a7c6f2ad5a',1,'Tango::MultiAttrProp']]],
-  ['multiattrprop',['MultiAttrProp',['../classTango_1_1MultiAttrProp.html',1,'Tango']]]
+  ['multiattribute',['MultiAttribute',['../classTango_1_1MultiAttribute.html',1,'Tango::MultiAttribute'],['../classTango_1_1MultiAttribute.html#aafd0cc4e89eeef1687b827da72b2db34',1,'Tango::MultiAttribute::MultiAttribute()']]],
+  ['multiattrprop',['MultiAttrProp',['../classTango_1_1MultiAttrProp.html',1,'Tango::MultiAttrProp&lt; T &gt;'],['../classTango_1_1MultiAttrProp.html#a54da16eb6216e7833e4fd0a7c6f2ad5a',1,'Tango::MultiAttrProp::MultiAttrProp()']]]
 ];

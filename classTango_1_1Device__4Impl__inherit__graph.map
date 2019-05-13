@@ -1,6 +1,7 @@
 <map id="Tango::Device_4Impl" name="Tango::Device_4Impl">
-<area shape="rect" id="node5" href="$classTango_1_1Device__5Impl.html" title="Base class for all TANGO device since version 5. " alt="" coords="5,304,148,331"/>
-<area shape="rect" id="node2" href="$classTango_1_1Device__3Impl.html" title="Base class for all TANGO device since version 3. " alt="" coords="5,155,148,181"/>
-<area shape="rect" id="node3" href="$classTango_1_1Device__2Impl.html" title="Base class for all TANGO device since version 2. " alt="" coords="5,80,148,107"/>
-<area shape="rect" id="node4" href="$classTango_1_1DeviceImpl.html" title="Base class for all TANGO device. " alt="" coords="13,5,141,32"/>
+<area shape="rect" id="node1" title="Base class for all TANGO device since version 4." alt="" coords="5,229,152,256"/>
+<area shape="rect" id="node5" href="$classTango_1_1Device__5Impl.html" title="Base class for all TANGO device since version 5." alt="" coords="5,304,152,331"/>
+<area shape="rect" id="node2" href="$classTango_1_1Device__3Impl.html" title="Base class for all TANGO device since version 3." alt="" coords="5,155,152,181"/>
+<area shape="rect" id="node3" href="$classTango_1_1Device__2Impl.html" title="Base class for all TANGO device since version 2." alt="" coords="5,80,152,107"/>
+<area shape="rect" id="node4" href="$classTango_1_1DeviceImpl.html" title="Base class for all TANGO device." alt="" coords="13,5,145,32"/>
 </map>
