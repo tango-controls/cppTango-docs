@@ -1,13 +1,11 @@
 <map id="Tango::AttrConfEventData" name="Tango::AttrConfEventData">
-<area shape="rect" id="node1" title="Attribute configuration change event callback execution data." alt="" coords="837,52,1015,79"/>
-<area shape="rect" id="node2" href="$classTango_1_1DeviceProxy.html" title="High level class which provides the client with an easy&#45;to&#45;use interface to TANGO devices." alt="" coords="586,17,727,44"/>
-<area shape="rect" id="node3" href="$classTango_1_1Connection.html" title="Base class for Tango device access." alt="" coords="337,5,469,32"/>
-<area shape="rect" id="node4" href="$structTango_1_1AttributeInfoEx.html" title="Extended attribute configuration data." alt="" coords="580,91,733,117"/>
-<area shape="rect" id="node5" href="$structTango_1_1AttributeInfo.html" title="Attribute configuration data extension." alt="" coords="334,56,471,83"/>
-<area shape="rect" id="node6" href="$structTango_1_1DeviceAttributeConfig.html" title="Base structure for Attribute configuration." alt="" coords="5,31,200,57"/>
-<area shape="rect" id="node7" href="$structTango_1_1AttributeEventInfo.html" title="Attribute event configuration." alt="" coords="317,107,488,133"/>
-<area shape="rect" id="node8" href="$structTango_1_1PeriodicEventInfo.html" title="Attribute periodic event configuration." alt="" coords="18,81,187,108"/>
-<area shape="rect" id="node9" href="$structTango_1_1ChangeEventInfo.html" title="Attribute change event configuration." alt="" coords="19,132,186,159"/>
-<area shape="rect" id="node10" href="$structTango_1_1ArchiveEventInfo.html" title="Attribute archive event configuration." alt="" coords="19,183,186,209"/>
-<area shape="rect" id="node11" href="$structTango_1_1AttributeAlarmInfo.html" title="Attribute alarms configuration." alt="" coords="317,157,488,184"/>
+<area shape="rect" id="node1" title="Attribute configuration change event callback execution data." alt="" coords="877,95,1064,121"/>
+<area shape="rect" id="node2" href="$structTango_1_1AttributeInfoEx.html" title="Extended attribute configuration data." alt="" coords="608,95,768,121"/>
+<area shape="rect" id="node3" href="$structTango_1_1AttributeInfo.html" title="Attribute configuration data extension." alt="" coords="351,19,495,45"/>
+<area shape="rect" id="node4" href="$structTango_1_1DeviceAttributeConfig.html" title="Base structure for Attribute configuration." alt="" coords="5,5,209,32"/>
+<area shape="rect" id="node5" href="$structTango_1_1AttributeEventInfo.html" title="Attribute event configuration." alt="" coords="333,95,513,121"/>
+<area shape="rect" id="node6" href="$structTango_1_1PeriodicEventInfo.html" title="Attribute periodic event configuration." alt="" coords="17,56,197,83"/>
+<area shape="rect" id="node7" href="$structTango_1_1ChangeEventInfo.html" title="Attribute change event configuration." alt="" coords="18,107,197,133"/>
+<area shape="rect" id="node8" href="$structTango_1_1ArchiveEventInfo.html" title="Attribute archive event configuration." alt="" coords="19,157,195,184"/>
+<area shape="rect" id="node9" href="$structTango_1_1AttributeAlarmInfo.html" title="Attribute alarms configuration." alt="" coords="333,145,513,172"/>
 </map>

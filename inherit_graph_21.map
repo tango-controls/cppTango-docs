@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classTango_1_1DataReadyEventData.html" title="Data ready event callback execution data." alt="" coords="5,5,200,32"/>
+<area shape="rect" id="node1" href="$classTango_1_1DbDevImportInfo.html" title="Device import information from the database." alt="" coords="5,5,180,32"/>
+<area shape="rect" id="node2" href="$classTango_1_1DbDevFullInfo.html" title="Device information from the database." alt="" coords="228,5,384,32"/>
 </map>

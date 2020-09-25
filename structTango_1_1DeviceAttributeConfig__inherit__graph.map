@@ -1,5 +1,5 @@
 <map id="Tango::DeviceAttributeConfig" name="Tango::DeviceAttributeConfig">
-<area shape="rect" id="node1" title="Base structure for Attribute configuration." alt="" coords="5,5,200,32"/>
-<area shape="rect" id="node2" href="$structTango_1_1AttributeInfo.html" title="Attribute configuration data extension." alt="" coords="34,80,171,107"/>
-<area shape="rect" id="node3" href="$structTango_1_1AttributeInfoEx.html" title="Extended attribute configuration data." alt="" coords="26,155,179,181"/>
+<area shape="rect" id="node1" title="Base structure for Attribute configuration." alt="" coords="5,5,209,32"/>
+<area shape="rect" id="node2" href="$structTango_1_1AttributeInfo.html" title="Attribute configuration data extension." alt="" coords="35,80,179,107"/>
+<area shape="rect" id="node3" href="$structTango_1_1AttributeInfoEx.html" title="Extended attribute configuration data." alt="" coords="27,155,187,181"/>
 </map>

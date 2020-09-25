@@ -1,5 +1,5 @@
 <map id="Tango::TemplCommandIn&lt; INARG &gt;" name="Tango::TemplCommandIn&lt; INARG &gt;">
-<area shape="rect" id="node1" title="This class is a class representing a command in the template command model with input parameter but w..." alt="" coords="5,155,179,196"/>
-<area shape="rect" id="node2" href="$classTango_1_1TemplCommand.html" title="This class is a class representing a command in the template command model without input or output pa..." alt="" coords="11,80,173,107"/>
-<area shape="rect" id="node3" href="$classTango_1_1Command.html" title="This class is a class representing a command in the TANGO device server pattern." alt="" coords="29,5,155,32"/>
+<area shape="rect" id="node1" title="This class is a class representing a command in the template command model with input parameter but w..." alt="" coords="5,155,189,196"/>
+<area shape="rect" id="node2" href="$classTango_1_1TemplCommand.html" title="This class is a class representing a command in the template command model without input or output pa..." alt="" coords="11,80,183,107"/>
+<area shape="rect" id="node3" href="$classTango_1_1Command.html" title="This class is a class representing a command in the TANGO device server pattern." alt="" coords="31,5,164,32"/>
 </map>

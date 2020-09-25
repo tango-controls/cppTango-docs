@@ -1,6 +1,5 @@
 var hierarchy =
 [
-    [ "Tango::ApiUtil", "classTango_1_1ApiUtil.html", null ],
     [ "Tango::ArchiveEventInfo", "structTango_1_1ArchiveEventInfo.html", null ],
     [ "Tango::Attr", "classTango_1_1Attr.html", [
       [ "Tango::SpectrumAttr", "classTango_1_1SpectrumAttr.html", [
@@ -16,7 +15,6 @@ var hierarchy =
     ] ],
     [ "Tango::AttributeAlarmInfo", "structTango_1_1AttributeAlarmInfo.html", null ],
     [ "Tango::AttributeEventInfo", "structTango_1_1AttributeEventInfo.html", null ],
-    [ "Tango::AttributeProxy", "classTango_1_1AttributeProxy.html", null ],
     [ "Tango::AttrProp< T >", "classTango_1_1AttrProp.html", null ],
     [ "Tango::AttrProp< DevLong >", "classTango_1_1AttrProp.html", null ],
     [ "Tango::AttrReadEvent", "classTango_1_1AttrReadEvent.html", null ],
@@ -33,38 +31,29 @@ var hierarchy =
         [ "Tango::TemplCommandOut< OUTARG >", "classTango_1_1TemplCommandOut.html", null ]
       ] ]
     ] ],
-    [ "Tango::Connection", "classTango_1_1Connection.html", [
-      [ "Tango::Database", "classTango_1_1Database.html", null ],
-      [ "Tango::DeviceProxy", "classTango_1_1DeviceProxy.html", null ]
-    ] ],
-    [ "Tango::DataElement< T >", "structTango_1_1DataElement.html", null ],
     [ "Tango::DataReadyEventData", "classTango_1_1DataReadyEventData.html", null ],
     [ "Tango::DbClass", "classTango_1_1DbClass.html", null ],
     [ "Tango::DbDatum", "classTango_1_1DbDatum.html", null ],
     [ "Tango::DbDevExportInfo", "classTango_1_1DbDevExportInfo.html", null ],
-    [ "Tango::DbDevice", "classTango_1_1DbDevice.html", null ],
     [ "Tango::DbDevImportInfo", "classTango_1_1DbDevImportInfo.html", [
       [ "Tango::DbDevFullInfo", "classTango_1_1DbDevFullInfo.html", null ]
     ] ],
     [ "Tango::DbDevInfo", "classTango_1_1DbDevInfo.html", null ],
     [ "Tango::DbHistory", "classTango_1_1DbHistory.html", null ],
+    [ "Tango::DbProperty", "classTango_1_1DbProperty.html", null ],
     [ "Tango::DbServer", "classTango_1_1DbServer.html", null ],
     [ "Tango::DbServerData", "classTango_1_1DbServerData.html", null ],
     [ "Tango::DevCommandInfo", "structTango_1_1DevCommandInfo.html", [
       [ "Tango::CommandInfo", "structTango_1_1CommandInfo.html", null ]
-    ] ],
-    [ "Tango::DeviceAttribute", "classTango_1_1DeviceAttribute.html", [
-      [ "Tango::DeviceAttributeHistory", "classTango_1_1DeviceAttributeHistory.html", null ]
     ] ],
     [ "Tango::DeviceAttributeConfig", "structTango_1_1DeviceAttributeConfig.html", [
       [ "Tango::AttributeInfo", "structTango_1_1AttributeInfo.html", [
         [ "Tango::AttributeInfoEx", "structTango_1_1AttributeInfoEx.html", null ]
       ] ]
     ] ],
+    [ "Tango::DeviceAttributeHistory", "classTango_1_1DeviceAttributeHistory.html", null ],
     [ "Tango::DeviceClass", "classTango_1_1DeviceClass.html", null ],
-    [ "Tango::DeviceData", "classTango_1_1DeviceData.html", [
-      [ "Tango::DeviceDataHistory", "classTango_1_1DeviceDataHistory.html", null ]
-    ] ],
+    [ "Tango::DeviceDataHistory", "classTango_1_1DeviceDataHistory.html", null ],
     [ "Tango::DeviceImpl", "classTango_1_1DeviceImpl.html", [
       [ "Tango::Device_2Impl", "classTango_1_1Device__2Impl.html", [
         [ "Tango::Device_3Impl", "classTango_1_1Device__3Impl.html", [
@@ -74,11 +63,10 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
-    [ "Tango::DevicePipe", "classTango_1_1DevicePipe.html", null ],
-    [ "Tango::DevicePipeBlob", "classTango_1_1DevicePipeBlob.html", null ],
     [ "Tango::DevIntrChangeEventData", "classTango_1_1DevIntrChangeEventData.html", null ],
     [ "Tango::DoubleAttrProp< T >", "classTango_1_1DoubleAttrProp.html", null ],
     [ "Tango::DoubleAttrProp< DevDouble >", "classTango_1_1DoubleAttrProp.html", null ],
+    [ "Tango::EncodedAttribute", "classTango_1_1EncodedAttribute.html", null ],
     [ "Tango::EventData", "classTango_1_1EventData.html", null ],
     [ "Tango::Except", "classTango_1_1Except.html", null ],
     [ "Tango::Group", "classTango_1_1Group.html", null ],

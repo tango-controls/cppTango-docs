@@ -1,4 +1,4 @@
 <map id="Tango::CommandInfo" name="Tango::CommandInfo">
-<area shape="rect" id="node1" title="Command information data extension." alt="" coords="17,80,165,107"/>
-<area shape="rect" id="node2" href="$structTango_1_1DevCommandInfo.html" title="Base structure for command information." alt="" coords="5,5,177,32"/>
+<area shape="rect" id="node1" title="Command information data extension." alt="" coords="18,80,175,107"/>
+<area shape="rect" id="node2" href="$structTango_1_1DevCommandInfo.html" title="Base structure for command information." alt="" coords="5,5,188,32"/>
 </map>

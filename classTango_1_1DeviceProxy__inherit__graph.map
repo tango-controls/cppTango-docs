@@ -1,4 +1,0 @@
-<map id="Tango::DeviceProxy" name="Tango::DeviceProxy">
-<area shape="rect" id="node1" title="High level class which provides the client with an easy&#45;to&#45;use interface to TANGO devices." alt="" coords="5,80,147,107"/>
-<area shape="rect" id="node2" href="$classTango_1_1Connection.html" title="Base class for Tango device access." alt="" coords="10,5,142,32"/>
-</map>
