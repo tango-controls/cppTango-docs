@@ -1,14 +1,21 @@
 var searchData=
 [
-  ['unexport_5fdevice',['unexport_device',['../classTango_1_1Database.html#a2d38bc8853d22ac8ddfc4835882b95e8',1,'Tango::Database']]],
-  ['unexport_5fserver',['unexport_server',['../classTango_1_1Database.html#ab4d3db3c78a0206d034552e7ba2e644d',1,'Tango::Database::unexport_server()'],['../classTango_1_1DbServer.html#a7ec946b0a31e7fb26b126063315e52bc',1,'Tango::DbServer::unexport_server()']]],
-  ['unlock',['unlock',['../classTango_1_1DeviceProxy.html#a32be62e932d5ab4dbc97bdc11cd49591',1,'Tango::DeviceProxy']]],
-  ['unregister_5fserver',['unregister_server',['../classTango_1_1Util.html#a48cc2bfa8af581f5b56ff7b72de4c2ff',1,'Tango::Util']]],
-  ['unregister_5fservice',['unregister_service',['../classTango_1_1Database.html#ac884433c60f7d281ef005356e3df2d2a',1,'Tango::Database']]],
-  ['unregister_5fsignal',['unregister_signal',['../classTango_1_1DeviceImpl.html#a9bbea9d3b6cf43f467a56d8866b343ca',1,'Tango::DeviceImpl::unregister_signal()'],['../classTango_1_1DeviceClass.html#aa3ea36c4bc496245b84592f424043df7',1,'Tango::DeviceClass::unregister_signal()']]],
-  ['unsubscribe_5fevent',['unsubscribe_event',['../classTango_1_1DeviceProxy.html#a150d8e7e5bba2d8948bbb780387963b9',1,'Tango::DeviceProxy::unsubscribe_event()'],['../classTango_1_1AttributeProxy.html#ae53bb772bd5c55030baa7be4abebe899',1,'Tango::AttributeProxy::unsubscribe_event()']]],
-  ['userdefaultattrprop',['UserDefaultAttrProp',['../classTango_1_1UserDefaultAttrProp.html#a49c378598e36618e83ef92dcd7a5f15b',1,'Tango::UserDefaultAttrProp']]],
-  ['userdefaultfwdattrprop',['UserDefaultFwdAttrProp',['../classTango_1_1UserDefaultFwdAttrProp.html#a1f9555dc9376f0ac86399164ae6be529',1,'Tango::UserDefaultFwdAttrProp']]],
-  ['userdefaultpipeprop',['UserDefaultPipeProp',['../classTango_1_1UserDefaultPipeProp.html#a82e93031702a5358117b85ec41e3b09c',1,'Tango::UserDefaultPipeProp']]],
-  ['util',['Util',['../classTango_1_1Util.html#ae8cb0ef44d4f03250ab33b603a1dfee2',1,'Tango::Util']]]
+  ['_7eattr_1070',['~Attr',['../classTango_1_1Attr.html#af280714a1ec4254e7ad7009eb0e8feda',1,'Tango::Attr']]],
+  ['_7eattribute_1071',['~Attribute',['../classTango_1_1Attribute.html#ae2740fa1ac154feb7d50a85199991f42',1,'Tango::Attribute']]],
+  ['_7ecommand_1072',['~Command',['../classTango_1_1Command.html#a05ff827c05911f69e56e3835345f5e84',1,'Tango::Command']]],
+  ['_7edevice_5f2impl_1073',['~Device_2Impl',['../classTango_1_1Device__2Impl.html#afaefae8635cff0da56608f4bc38aa6da',1,'Tango::Device_2Impl']]],
+  ['_7edevice_5f3impl_1074',['~Device_3Impl',['../classTango_1_1Device__3Impl.html#a364061576e373d8bec46b5bba70f2817',1,'Tango::Device_3Impl']]],
+  ['_7edevice_5f4impl_1075',['~Device_4Impl',['../classTango_1_1Device__4Impl.html#af254d0190336648b899e031eba61160a',1,'Tango::Device_4Impl']]],
+  ['_7edevice_5f5impl_1076',['~Device_5Impl',['../classTango_1_1Device__5Impl.html#ad7cf3154c98f61e13d6324a959903d24',1,'Tango::Device_5Impl']]],
+  ['_7edeviceclass_1077',['~DeviceClass',['../classTango_1_1DeviceClass.html#ae3f6389d6cd5f8d9a4a0d503b1b39859',1,'Tango::DeviceClass']]],
+  ['_7edeviceimpl_1078',['~DeviceImpl',['../classTango_1_1DeviceImpl.html#a9a5ffdab6150008e52d87ea4c38ee9ff',1,'Tango::DeviceImpl']]],
+  ['_7eencodedattribute_1079',['~EncodedAttribute',['../classTango_1_1EncodedAttribute.html#a6e013aa1fbfaa40971b3db1a32c17970',1,'Tango::EncodedAttribute']]],
+  ['_7egroup_1080',['~Group',['../classTango_1_1Group.html#acd7a0b40d37852923131e9bce68dd9ff',1,'Tango::Group']]],
+  ['_7eimageattr_1081',['~ImageAttr',['../classTango_1_1ImageAttr.html#a86703e9efdc8c59dba36821dbbda31f8',1,'Tango::ImageAttr']]],
+  ['_7emultiattribute_1082',['~MultiAttribute',['../classTango_1_1MultiAttribute.html#ad0f2a8d4aaff4735c71456d7ef6ba440',1,'Tango::MultiAttribute']]],
+  ['_7epipe_1083',['~Pipe',['../classTango_1_1Pipe.html#a4b23ac2255767c1effe26d4a3bd26cab',1,'Tango::Pipe']]],
+  ['_7espectrumattr_1084',['~SpectrumAttr',['../classTango_1_1SpectrumAttr.html#a2204d147fb74aac1efeff7ea9ea5c7be',1,'Tango::SpectrumAttr']]],
+  ['_7eutil_1085',['~Util',['../classTango_1_1Util.html#a9f4928ff121e0c7e25c23457fcdde12a',1,'Tango::Util']]],
+  ['_7ewattribute_1086',['~WAttribute',['../classTango_1_1WAttribute.html#a9d46d82cb48de388e34671f1276b3723',1,'Tango::WAttribute']]],
+  ['_7ewpipe_1087',['~WPipe',['../classTango_1_1WPipe.html#ab90cc0267c8765c2db3c2c0a41a291c2',1,'Tango::WPipe']]]
 ];

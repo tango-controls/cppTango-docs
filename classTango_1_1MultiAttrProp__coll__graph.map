@@ -1,7 +1,7 @@
 <map id="Tango::MultiAttrProp&lt; T &gt;" name="Tango::MultiAttrProp&lt; T &gt;">
-<area shape="rect" id="node1" title="This class represents Tango modifiable attribute properties grouped in one object to facilitate setti..." alt="" coords="121,243,296,269"/>
-<area shape="rect" id="node2" href="$classTango_1_1AttrProp.html" title=" " alt="" coords="5,102,196,129"/>
-<area shape="rect" id="node3" href="$classTango_1_1AttrProp.html" title="This class represents a Tango attribute property." alt="" coords="27,5,174,32"/>
-<area shape="rect" id="node4" href="$classTango_1_1DoubleAttrProp.html" title=" " alt="" coords="221,95,375,136"/>
-<area shape="rect" id="node5" href="$classTango_1_1DoubleAttrProp.html" title="This class represents a Tango compound attribute property which consists of two values." alt="" coords="205,5,391,32"/>
+<area shape="rect" id="node1" title="This class represents Tango modifiable attribute properties grouped in one object to facilitate setti..." alt="" coords="119,243,302,269"/>
+<area shape="rect" id="node2" href="$classTango_1_1AttrProp.html" title=" " alt="" coords="5,102,208,129"/>
+<area shape="rect" id="node3" href="$classTango_1_1AttrProp.html" title="This class represents a Tango attribute property." alt="" coords="29,5,184,32"/>
+<area shape="rect" id="node4" href="$classTango_1_1DoubleAttrProp.html" title=" " alt="" coords="233,95,397,136"/>
+<area shape="rect" id="node5" href="$classTango_1_1DoubleAttrProp.html" title="This class represents a Tango compound attribute property which consists of two values." alt="" coords="216,5,413,32"/>
 </map>

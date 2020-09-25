@@ -1,5 +1,0 @@
-<map id="Tango::AttrReadEvent" name="Tango::AttrReadEvent">
-<area shape="rect" id="node1" title="Asynchronous read attribute execution callback data." alt="" coords="5,171,157,197"/>
-<area shape="rect" id="node2" href="$classTango_1_1DeviceProxy.html" title="High level class which provides the client with an easy&#45;to&#45;use interface to TANGO devices." alt="" coords="11,81,152,108"/>
-<area shape="rect" id="node3" href="$classTango_1_1Connection.html" title="Base class for Tango device access." alt="" coords="15,5,147,32"/>
-</map>
