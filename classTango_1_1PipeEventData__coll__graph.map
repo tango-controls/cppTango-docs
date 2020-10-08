@@ -1,0 +1,5 @@
+<map id="Tango::PipeEventData" name="Tango::PipeEventData">
+<area shape="rect" id="node1" title="Pipe event callback execution data." alt="" coords="35,95,197,121"/>
+<area shape="rect" id="node2" href="$classDeviceProxy.html" title="High level class which provides the client with an easy&#45;to&#45;use interface to TANGO devices." alt="" coords="5,5,107,32"/>
+<area shape="rect" id="node3" href="$classDevicePipe.html" title="Fundamental type for sending/receiving data from device pipes." alt="" coords="131,5,224,32"/>
+</map>

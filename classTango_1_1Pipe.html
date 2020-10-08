@@ -98,9 +98,18 @@ $(document).ready(function(){initNavTree('classTango_1_1Pipe.html',''); initResi
 Inheritance diagram for Tango::Pipe:</div>
 <div class="dyncontent">
 <div class="center"><img src="classTango_1_1Pipe__inherit__graph.png" border="0" usemap="#aTango_1_1Pipe_inherit__map" alt="Inheritance graph"/></div>
-<map name="Tango_1_1Pipe_inherit__map" id="aTango_1_1Pipe_inherit__map">
+<map name="Tango_1_1Pipe_inherit__map" id="Tango_1_1Pipe_inherit__map">
 <area shape="rect" title="This class is a class representing a pipe in the TANGO device server pattern." alt="" coords="12,5,109,32"/>
 <area shape="rect" href="classTango_1_1WPipe.html" title="This class is a class representing a writable pipe in the TANGO device server pattern." alt="" coords="5,80,116,107"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for Tango::Pipe:</div>
+<div class="dyncontent">
+<div class="center"><img src="classTango_1_1Pipe__coll__graph.png" border="0" usemap="#aTango_1_1Pipe_coll__map" alt="Collaboration graph"/></div>
+<map name="Tango_1_1Pipe_coll__map" id="Tango_1_1Pipe_coll__map">
+<area shape="rect" title="This class is a class representing a pipe in the TANGO device server pattern." alt="" coords="17,95,114,121"/>
+<area shape="rect" href="classDevicePipeBlob.html" title="A device pipe blob." alt="" coords="5,5,125,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -224,7 +233,7 @@ Tango::PipeWriteType&#160;</td><td class="memItemRight" valign="bottom"><a class
 <tr class="memdesc:afaec591f0261e13cb7df7277c9f09ece"><td class="mdescLeft">&#160;</td><td class="mdescRight">The pipe R/W type. <br /></td></tr>
 <tr class="separator:afaec591f0261e13cb7df7277c9f09ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a784d199e1309184b6c5afbe64dcc64b4"><td class="memItemLeft" align="right" valign="top"><a id="a784d199e1309184b6c5afbe64dcc64b4"></a>
-DevicePipeBlob&#160;</td><td class="memItemRight" valign="bottom"><b>the_blob</b></td></tr>
+<a class="el" href="classDevicePipeBlob.html">DevicePipeBlob</a>&#160;</td><td class="memItemRight" valign="bottom"><b>the_blob</b></td></tr>
 <tr class="separator:a784d199e1309184b6c5afbe64dcc64b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -340,6 +349,8 @@ DevicePipeBlob&#160;</td><td class="memItemRight" valign="bottom"><b>the_blob</b
 <div class="line">cout &lt;&lt; <span class="stringliteral">&quot;bs = &quot;</span> &lt;&lt; bs &lt;&lt; endl;</div>
 </div><!-- fragment --><dl class="section return"><dt>Returns</dt><dd>The exception flag </dd></dl>
 
+<p class="reference">References <a class="el" href="classDevicePipeBlob.html#a7329c17dc565566a890c64d3850b8d3b">DevicePipeBlob::exceptions()</a>.</p>
+
 </div>
 </div>
 <a id="abd430c1ee08d7d19ebbf469974c62dc4"></a>
@@ -370,7 +381,7 @@ DevicePipeBlob&#160;</td><td class="memItemRight" valign="bottom"><b>the_blob</b
 <p>It's a method which allows the user to switch on/off exception throwing when trying to insert/extract data from a <a class="el" href="classTango_1_1Pipe.html" title="This class is a class representing a pipe in the TANGO device server pattern.">Pipe</a> object. The following flags are supported : </p><ul>
 <li><b>isempty_flag</b> - throw a WrongData exception (reason = API_EmptyDataElement) if user tries to extract data from one empty blob data element. By default, this flag is set </li>
 <li><b>wrongtype_flag</b> - throw a WrongData exception (reason = API_IncompatibleArgumentType) if user tries to extract data with a type different than the type used for insertion. By default, this flag is set </li>
-<li><b>notenoughde_flag</b> - throw a WrongData exception (reason = API_PipeWrongArg) if user tries to extract data from a DevicePipeBlob for a data element which does not exist. By default, this flag is set </li>
+<li><b>notenoughde_flag</b> - throw a WrongData exception (reason = API_PipeWrongArg) if user tries to extract data from a <a class="el" href="classDevicePipeBlob.html" title="A device pipe blob.">DevicePipeBlob</a> for a data element which does not exist. By default, this flag is set </li>
 <li><b>blobdenamenotset_flag</b> - Throw a WrongData exception (reason = API_PipeNoDataElement) if user tries to insert data into the blob while the name or number of data element has not been set with methods <a class="el" href="classTango_1_1Pipe.html#a9e73adb9661dd91811af627d701d8832" title="Set blob data element number.">set_data_elt_nb()</a> or <a class="el" href="classTango_1_1Pipe.html#a90537af700f9c8f7bbbe4540e0b9542b" title="Set blob data element number and names.">set_data_elt_names()</a> </li>
 <li><b>mixing_flag</b> - Throw a WrongData exception (reason = API_NotSupportedFeature) if user tries to mix insertion/extraction method (&lt;&lt; or &gt;&gt;) with operator[]</li>
 </ul>
@@ -380,6 +391,8 @@ DevicePipeBlob&#160;</td><td class="memItemRight" valign="bottom"><b>the_blob</b
   </table>
   </dd>
 </dl>
+
+<p class="reference">References <a class="el" href="classDevicePipeBlob.html#a7329c17dc565566a890c64d3850b8d3b">DevicePipeBlob::exceptions()</a>.</p>
 
 </div>
 </div>
@@ -409,6 +422,8 @@ DevicePipeBlob&#160;</td><td class="memItemRight" valign="bottom"><b>the_blob</b
 <p>Get blob data element number. </p>
 <p>Get the blob data element number</p>
 <dl class="section return"><dt>Returns</dt><dd>The blob data element number </dd></dl>
+
+<p class="reference">References <a class="el" href="classDevicePipeBlob.html#a9ca24973993078240b8747a7f2ff302b">DevicePipeBlob::get_data_elt_nb()</a>.</p>
 
 </div>
 </div>
@@ -617,6 +632,8 @@ DevicePipeBlob&#160;</td><td class="memItemRight" valign="bottom"><b>the_blob</b
 <p>Return the root data blob name. </p>
 <dl class="section return"><dt>Returns</dt><dd>The data blob name </dd></dl>
 
+<p class="reference">References <a class="el" href="classDevicePipeBlob.html#a79064cbbc2f71d87981a71987db69fbd">DevicePipeBlob::get_name()</a>.</p>
+
 </div>
 </div>
 <a id="ad4981873f1e6f3d5e294f66d3b01b848"></a>
@@ -676,6 +693,8 @@ DevicePipeBlob&#160;</td><td class="memItemRight" valign="bottom"><b>the_blob</b
 <p>Allow the user to check if insertion/extraction into/from <a class="el" href="classTango_1_1Pipe.html" title="This class is a class representing a pipe in the TANGO device server pattern.">Pipe</a> instance was successfull. This method has to be used when exceptions are disabled.</p>
 <dl class="section return"><dt>Returns</dt><dd>True if insertion/extraction has failed </dd></dl>
 
+<p class="reference">References <a class="el" href="classDevicePipeBlob.html#a64e159f1d920a16fc7e199eddb6847ee">DevicePipeBlob::has_failed()</a>.</p>
+
 </div>
 </div>
 <a id="ac67072c3bf8d26e547ea92aac9b7e260"></a>
@@ -695,7 +714,7 @@ DevicePipeBlob&#160;</td><td class="memItemRight" valign="bottom"><b>the_blob</b
 </div><div class="memdoc">
 
 <p>Insert data into a device pipe. </p>
-<p>Inserting data into a <a class="el" href="classTango_1_1Pipe.html" title="This class is a class representing a pipe in the TANGO device server pattern.">Pipe</a> instance is simlar to inserting data into a DevicePipeBlob class instance. See doc of DevicePipeBlob class insertion methods (DevicePipeBlob::operator&lt;&lt;) to get a complete documentation on how to insert data into a <a class="el" href="classTango_1_1Pipe.html" title="This class is a class representing a pipe in the TANGO device server pattern.">Pipe</a> object</p>
+<p>Inserting data into a <a class="el" href="classTango_1_1Pipe.html" title="This class is a class representing a pipe in the TANGO device server pattern.">Pipe</a> instance is simlar to inserting data into a <a class="el" href="classDevicePipeBlob.html" title="A device pipe blob.">DevicePipeBlob</a> class instance. See doc of <a class="el" href="classDevicePipeBlob.html" title="A device pipe blob.">DevicePipeBlob</a> class insertion methods (<a class="el" href="classDevicePipeBlob.html#a3b18eebd51bc332ef6ed63834c833f08" title="Insert data into a data blob.">DevicePipeBlob::operator&lt;&lt;</a>) to get a complete documentation on how to insert data into a <a class="el" href="classTango_1_1Pipe.html" title="This class is a class representing a pipe in the TANGO device server pattern.">Pipe</a> object</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">datum</td><td>The data to be inserted into the <a class="el" href="classTango_1_1Pipe.html" title="This class is a class representing a pipe in the TANGO device server pattern.">Pipe</a> object </td></tr>
@@ -744,6 +763,8 @@ DevicePipeBlob&#160;</td><td class="memItemRight" valign="bottom"><b>the_blob</b
   </dd>
 </dl>
 
+<p class="reference">References <a class="el" href="classDevicePipeBlob.html#a3afccd349a5811378ae99008f5079d61">DevicePipeBlob::reset_exceptions()</a>.</p>
+
 </div>
 </div>
 <a id="a90537af700f9c8f7bbbe4540e0b9542b"></a>
@@ -779,6 +800,8 @@ DevicePipeBlob&#160;</td><td class="memItemRight" valign="bottom"><b>the_blob</b
   </dd>
 </dl>
 
+<p class="reference">References <a class="el" href="classDevicePipeBlob.html#a95b59d32862dd381c1bfd449056c16c5">DevicePipeBlob::set_data_elt_names()</a>.</p>
+
 </div>
 </div>
 <a id="a9e73adb9661dd91811af627d701d8832"></a>
@@ -813,6 +836,8 @@ DevicePipeBlob&#160;</td><td class="memItemRight" valign="bottom"><b>the_blob</b
   </table>
   </dd>
 </dl>
+
+<p class="reference">References <a class="el" href="classDevicePipeBlob.html#ae5242dcb6e381859b51920ac2ce830a5">DevicePipeBlob::set_data_elt_nb()</a>.</p>
 
 </div>
 </div>
@@ -867,13 +892,15 @@ DevicePipeBlob&#160;</td><td class="memItemRight" valign="bottom"><b>the_blob</b
 </div><div class="memdoc">
 
 <p>Set one exception flag. </p>
-<p>Sets one exception flag. See DevicePipeBlob::exceptions() for a usage example.</p>
+<p>Sets one exception flag. See <a class="el" href="classDevicePipeBlob.html#a30f2b859921e8f5b6f5872ad196a4497" title="Get exception flag.">DevicePipeBlob::exceptions()</a> for a usage example.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">fl</td><td>The exception flag </td></tr>
   </table>
   </dd>
 </dl>
+
+<p class="reference">References <a class="el" href="classDevicePipeBlob.html#ad9941cb2f6a24fc2f4e5df7eefefb66b">DevicePipeBlob::set_exceptions()</a>.</p>
 
 </div>
 </div>
@@ -972,7 +999,7 @@ DevicePipeBlob&#160;</td><td class="memItemRight" valign="bottom"><b>the_blob</b
   </dd>
 </dl>
 
-<p class="reference">References <a class="el" href="classTango_1_1Pipe.html#af3cae1c6cb5f44b9a51e45b61d67cfdb">name</a>.</p>
+<p class="reference">References <a class="el" href="classTango_1_1Pipe.html#af3cae1c6cb5f44b9a51e45b61d67cfdb">name</a>, and <a class="el" href="classDevicePipeBlob.html#a96d760e51b195d64257952f932466541">DevicePipeBlob::set_name()</a>.</p>
 
 </div>
 </div>
@@ -1039,7 +1066,7 @@ DevicePipeBlob&#160;</td><td class="memItemRight" valign="bottom"><b>the_blob</b
 <div class="line"> </div>
 <div class="line">bitset&lt;DevicePipeBlob::numFlags&gt; bs;</div>
 <div class="line">bs.reset();</div>
-<div class="line">dpb.exceptions(bs);</div>
+<div class="line">dpb.<a class="code" href="classDevicePipeBlob.html#a7329c17dc565566a890c64d3850b8d3b">exceptions</a>(bs);</div>
 <div class="line"> </div>
 <div class="line">DevLong dl;</div>
 <div class="line">dpb &gt;&gt; dl;</div>
@@ -1052,6 +1079,8 @@ DevicePipeBlob&#160;</td><td class="memItemRight" valign="bottom"><b>the_blob</b
 <div class="line">}</div>
 </div><!-- fragment --><dl class="section return"><dt>Returns</dt><dd>The error bit set. </dd></dl>
 
+<p class="reference">References <a class="el" href="classDevicePipeBlob.html#ab6b0639edd77789eb14f8a745f84363b">DevicePipeBlob::state()</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
@@ -1059,12 +1088,13 @@ DevicePipeBlob&#160;</td><td class="memItemRight" valign="bottom"><b>the_blob</b
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="aclassDevicePipeBlob_html_a7329c17dc565566a890c64d3850b8d3b"><div class="ttname"><a href="classDevicePipeBlob.html#a7329c17dc565566a890c64d3850b8d3b">DevicePipeBlob::exceptions</a></div><div class="ttdeci">void exceptions(bitset&lt; numFlags &gt; fl)</div><div class="ttdoc">Set exception flag.</div><div class="ttdef"><b>Definition:</b> DevicePipe.h:542</div></div>
 <div class="ttc" id="aclassTango_1_1Pipe_html_a48f8fa0e8e169fd8f278407b771dc27d"><div class="ttname"><a href="classTango_1_1Pipe.html#a48f8fa0e8e169fd8f278407b771dc27d">Tango::Pipe::Pipe</a></div><div class="ttdeci">Pipe()</div><div class="ttdoc">Constructs a newly allocated Pipe object.</div><div class="ttdef"><b>Definition:</b> pipe.h:89</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceTango.html">Tango</a></li><li class="navelem"><a class="el" href="classTango_1_1Pipe.html">Pipe</a></li>
-    <li class="footer">Generated on Fri Sep 25 2020 13:19:18 for Tango Core Classes Reference by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.19 </li>
+    <li class="footer">Generated on Thu Oct 8 2020 13:28:14 for Tango Core Classes Reference by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.19 </li>
   </ul>
 </div>
 </body>

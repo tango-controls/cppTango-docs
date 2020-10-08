@@ -1,4 +1,5 @@
 <map id="Tango::WPipe" name="Tango::WPipe">
-<area shape="rect" id="node1" title="This class is a class representing a writable pipe in the TANGO device server pattern." alt="" coords="5,80,116,107"/>
-<area shape="rect" id="node2" href="$classTango_1_1Pipe.html" title="This class is a class representing a pipe in the TANGO device server pattern." alt="" coords="12,5,109,32"/>
+<area shape="rect" id="node1" title="This class is a class representing a writable pipe in the TANGO device server pattern." alt="" coords="10,171,121,197"/>
+<area shape="rect" id="node2" href="$classTango_1_1Pipe.html" title="This class is a class representing a pipe in the TANGO device server pattern." alt="" coords="17,95,114,121"/>
+<area shape="rect" id="node3" href="$classDevicePipeBlob.html" title="A device pipe blob." alt="" coords="5,5,125,32"/>
 </map>

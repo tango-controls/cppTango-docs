@@ -1,0 +1,4 @@
+<map id="DeviceData" name="DeviceData">
+<area shape="rect" id="node1" title="Fundamental type for sending and receiving data from device commands." alt="" coords="51,5,146,32"/>
+<area shape="rect" id="node2" href="$classTango_1_1DeviceDataHistory.html" title="Fundamental type for receiving data from device command polling buffers." alt="" coords="5,80,192,107"/>
+</map>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['reconnection_20and_20exception_1257',['Reconnection and exception',['../recon.html',1,'']]]
+  ['exception_1601',['Exception',['../except.html',1,'']]]
 ];

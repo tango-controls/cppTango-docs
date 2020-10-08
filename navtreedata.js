@@ -44,6 +44,7 @@ var NAVTREE =
     [ "Reconnection and exception", "recon.html", [
       [ "API reconnection", "recon.html#Tango", null ]
     ] ],
+    [ "Deprecated List", "deprecated.html", null ],
     [ "Modules", "modules.html", "modules" ],
     [ "Namespace Members", "namespacemembers.html", [
       [ "All", "namespacemembers.html", null ],
@@ -68,11 +69,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classTango_1_1Command.html#a3598206398bf3cb500d88bee3a1c76f4",
-"classTango_1_1DeviceImpl.html#a489ed63de4130e0e9ba98d9a08b2b9b8",
-"classTango_1_1Group.html#ad54f51f9f9bbac8ad686199245274bbf",
-"classTango_1_1TimedCmdData.html#a641bf7e089fd36a70d09cebef4d91c79",
-"functions_~.html"
+"classDevicePipe.html#ad2404b22dac70d0a18bf64f8959dabff",
+"classTango_1_1Attribute.html#a59bbd014fb3e06e3075cceed22aa1f94",
+"classTango_1_1DbDevExportInfo.html#a24c85a993aeb2e914f7c2c37aa4b949f",
+"classTango_1_1DeviceImpl.html#af12b9042dffbceb6462b151eeb01f6f8",
+"classTango_1_1Pipe.html#af3201b786412b40011bbc4343e995ebe",
+"classTango_1_1WAttribute.html#a68956bf1b7eebe867fda36e338d8d34e",
+"structTango_1_1DeviceAttributeConfig.html#a4ec80e8421b9f1f3e250b047771a4a17"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
