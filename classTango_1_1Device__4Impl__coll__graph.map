@@ -1,9 +1,10 @@
 <map id="Tango::Device_4Impl" name="Tango::Device_4Impl">
-<area shape="rect" id="node1" title="Base class for all TANGO device since version 4." alt="" coords="67,412,221,439"/>
-<area shape="rect" id="node2" href="$classTango_1_1Device__3Impl.html" title="Base class for all TANGO device since version 3." alt="" coords="67,336,221,363"/>
-<area shape="rect" id="node3" href="$classTango_1_1Device__2Impl.html" title="Base class for all TANGO device since version 2." alt="" coords="67,260,221,287"/>
-<area shape="rect" id="node4" href="$classTango_1_1DeviceImpl.html" title="Base class for all TANGO device." alt="" coords="75,184,213,211"/>
-<area shape="rect" id="node5" href="$classTango_1_1MultiAttribute.html" title="There is one instance of this class for each device." alt="" coords="5,95,155,121"/>
-<area shape="rect" id="node6" href="$classTango_1_1DeviceClass.html" title="Base class for all TANGO device&#45;class class." alt="" coords="179,95,325,121"/>
-<area shape="rect" id="node7" href="$classTango_1_1DbClass.html" title="A database object for a class which can be used to query or modify class properties." alt="" coords="191,5,313,32"/>
+<area shape="rect" id="node1" title="Base class for all TANGO device since version 4." alt="" coords="109,412,264,439"/>
+<area shape="rect" id="node2" href="$classTango_1_1Device__3Impl.html" title="Base class for all TANGO device since version 3." alt="" coords="109,336,264,363"/>
+<area shape="rect" id="node3" href="$classTango_1_1Device__2Impl.html" title="Base class for all TANGO device since version 2." alt="" coords="109,260,264,287"/>
+<area shape="rect" id="node4" href="$classTango_1_1DeviceImpl.html" title="Base class for all TANGO device." alt="" coords="117,184,256,211"/>
+<area shape="rect" id="node5" href="$classDbDevice.html" title="A high level object for a device interface to the database." alt="" coords="5,95,88,121"/>
+<area shape="rect" id="node6" href="$classTango_1_1MultiAttribute.html" title="There is one instance of this class for each device." alt="" coords="112,95,261,121"/>
+<area shape="rect" id="node7" href="$classTango_1_1DeviceClass.html" title="Base class for all TANGO device&#45;class class." alt="" coords="285,95,432,121"/>
+<area shape="rect" id="node8" href="$classTango_1_1DbClass.html" title="A database object for a class which can be used to query or modify class properties." alt="" coords="298,5,419,32"/>
 </map>

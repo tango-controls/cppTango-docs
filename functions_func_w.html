@@ -92,17 +92,29 @@ $(document).ready(function(){initNavTree('functions_func_w.html',''); initResiza
 <li>WPipe()
 : <a class="el" href="classTango_1_1WPipe.html#a55a5cb58749f6c67f8f40680ef51271e">Tango::WPipe</a>
 </li>
+<li>write()
+: <a class="el" href="classAttributeProxy.html#a6cea8134e684efe48be0241122081b1c">AttributeProxy</a>
+</li>
+<li>write_asynch()
+: <a class="el" href="classAttributeProxy.html#a77646ad31c846f8c5cf9302fc4d6ab6f">AttributeProxy</a>
+</li>
 <li>write_attr_hardware()
 : <a class="el" href="classTango_1_1DeviceImpl.html#a7aee6ee9fee2feb7f358972ec1677328">Tango::DeviceImpl</a>
 </li>
 <li>write_attribute()
-: <a class="el" href="classTango_1_1Group.html#a64da6f972d7dca15b192c66226e3d4c7">Tango::Group</a>
+: <a class="el" href="classDeviceProxy.html#a2e1bf69d2a105019fa87e75e0e30e5c7">DeviceProxy</a>
+, <a class="el" href="classTango_1_1Group.html#a64da6f972d7dca15b192c66226e3d4c7">Tango::Group</a>
 </li>
 <li>write_attribute_asynch()
-: <a class="el" href="classTango_1_1Group.html#a2ead1c134a086855da1e809aa8f13d03">Tango::Group</a>
+: <a class="el" href="classDeviceProxy.html#ad1e43b1145dd7fe5fb19ec0ecfb73055">DeviceProxy</a>
+, <a class="el" href="classTango_1_1Group.html#a187f0b29e02bf82b74f21b55c4252d62">Tango::Group</a>
 </li>
 <li>write_attribute_reply()
-: <a class="el" href="classTango_1_1Group.html#aa300f78715baea10d390b7e7489e0506">Tango::Group</a>
+: <a class="el" href="classDeviceProxy.html#a8749245a14359b5a97d203e991f35beb">DeviceProxy</a>
+, <a class="el" href="classTango_1_1Group.html#aa300f78715baea10d390b7e7489e0506">Tango::Group</a>
+</li>
+<li>write_attributes()
+: <a class="el" href="classDeviceProxy.html#a0e2a9089de398de962df6276af49d223">DeviceProxy</a>
 </li>
 <li>write_attributes_3()
 : <a class="el" href="classTango_1_1Device__3Impl.html#af1a705a748bf08290150c3e50bdb29ff">Tango::Device_3Impl</a>
@@ -110,8 +122,26 @@ $(document).ready(function(){initNavTree('functions_func_w.html',''); initResiza
 <li>write_attributes_4()
 : <a class="el" href="classTango_1_1Device__4Impl.html#ac7bea03a2b3b6ab988962155736a9335">Tango::Device_4Impl</a>
 </li>
+<li>write_attributes_asynch()
+: <a class="el" href="classDeviceProxy.html#a6a502f28531fe5c1c17e3f305fd1234c">DeviceProxy</a>
+</li>
+<li>write_attributes_reply()
+: <a class="el" href="classDeviceProxy.html#a2fdc1313863808dbb18775d5d4cd12a5">DeviceProxy</a>
+</li>
+<li>write_pipe()
+: <a class="el" href="classDeviceProxy.html#a244d0f0758497c520733973035932e7d">DeviceProxy</a>
+</li>
 <li>write_pipe_5()
 : <a class="el" href="classTango_1_1Device__5Impl.html#a03df67255a0e7b6b6259f85fc7834c77">Tango::Device_5Impl</a>
+</li>
+<li>write_read()
+: <a class="el" href="classAttributeProxy.html#a8ead51bedc933951076237edfbf39b70">AttributeProxy</a>
+</li>
+<li>write_read_attribute()
+: <a class="el" href="classDeviceProxy.html#ad25a16b34dd169c9bbe5c14e56df1fec">DeviceProxy</a>
+</li>
+<li>write_read_attributes()
+: <a class="el" href="classDeviceProxy.html#aed93a721e625dddfeb3a6e7837d436ef">DeviceProxy</a>
 </li>
 <li>write_read_attributes_4()
 : <a class="el" href="classTango_1_1Device__4Impl.html#a0785c4039f78b824a128ee16bd26dbee">Tango::Device_4Impl</a>
@@ -119,8 +149,14 @@ $(document).ready(function(){initNavTree('functions_func_w.html',''); initResiza
 <li>write_read_attributes_5()
 : <a class="el" href="classTango_1_1Device__5Impl.html#a6e4e5de7a14e9e02e39d88fd74341a2a">Tango::Device_5Impl</a>
 </li>
+<li>write_read_pipe()
+: <a class="el" href="classDeviceProxy.html#a58c8862ba50d12ced6407e55c724956a">DeviceProxy</a>
+</li>
 <li>write_read_pipe_5()
 : <a class="el" href="classTango_1_1Device__5Impl.html#a5da64b16851db4a641a06df11e1f371a">Tango::Device_5Impl</a>
+</li>
+<li>write_reply()
+: <a class="el" href="classAttributeProxy.html#ac0cad4d818fef97465e412b376191049">AttributeProxy</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -128,7 +164,7 @@ $(document).ready(function(){initNavTree('functions_func_w.html',''); initResiza
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Sep 25 2020 13:19:19 for Tango Core Classes Reference by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.19 </li>
+    <li class="footer">Generated on Thu Oct 8 2020 13:28:14 for Tango Core Classes Reference by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.19 </li>
   </ul>
 </div>
 </body>

@@ -1,0 +1,4 @@
+<map id="Tango::DevIntrChangeEventData" name="Tango::DevIntrChangeEventData">
+<area shape="rect" id="node1" title="Device interface change event callback execution data." alt="" coords="5,95,236,121"/>
+<area shape="rect" id="node2" href="$classDeviceProxy.html" title="High level class which provides the client with an easy&#45;to&#45;use interface to TANGO devices." alt="" coords="70,5,171,32"/>
+</map>

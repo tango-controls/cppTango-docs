@@ -130,13 +130,13 @@ Group management related methods</h2></td></tr>
 <tr class="memitem:a2885b00242d3a2d199836e48186dd71e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#a2885b00242d3a2d199836e48186dd71e">contains</a> (const std::string &amp;pattern, bool fwd=true)</td></tr>
 <tr class="memdesc:a2885b00242d3a2d199836e48186dd71e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the hierarchy contains groups and/or devices which name matches the specified pattern.  <a href="classTango_1_1Group.html#a2885b00242d3a2d199836e48186dd71e">More...</a><br /></td></tr>
 <tr class="separator:a2885b00242d3a2d199836e48186dd71e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc7d5db7e814e378bf30f940865885b8"><td class="memItemLeft" align="right" valign="top">virtual DeviceProxy *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#adc7d5db7e814e378bf30f940865885b8">get_device</a> (const std::string &amp;device_name)</td></tr>
+<tr class="memitem:adc7d5db7e814e378bf30f940865885b8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classDeviceProxy.html">DeviceProxy</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#adc7d5db7e814e378bf30f940865885b8">get_device</a> (const std::string &amp;device_name)</td></tr>
 <tr class="memdesc:adc7d5db7e814e378bf30f940865885b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the specified device.  <a href="classTango_1_1Group.html#adc7d5db7e814e378bf30f940865885b8">More...</a><br /></td></tr>
 <tr class="separator:adc7d5db7e814e378bf30f940865885b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29685f1ad173310c2cf695390cedd362"><td class="memItemLeft" align="right" valign="top">virtual DeviceProxy *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#a29685f1ad173310c2cf695390cedd362">get_device</a> (long idx)</td></tr>
+<tr class="memitem:a29685f1ad173310c2cf695390cedd362"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classDeviceProxy.html">DeviceProxy</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#a29685f1ad173310c2cf695390cedd362">get_device</a> (long idx)</td></tr>
 <tr class="memdesc:a29685f1ad173310c2cf695390cedd362"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the "idx-th" device in the hierarchy.  <a href="classTango_1_1Group.html#a29685f1ad173310c2cf695390cedd362">More...</a><br /></td></tr>
 <tr class="separator:a29685f1ad173310c2cf695390cedd362"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea3b781cd10d28770cb584c55c065534"><td class="memItemLeft" align="right" valign="top">virtual DeviceProxy *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#aea3b781cd10d28770cb584c55c065534">operator[]</a> (long idx)</td></tr>
+<tr class="memitem:aea3b781cd10d28770cb584c55c065534"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classDeviceProxy.html">DeviceProxy</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#aea3b781cd10d28770cb584c55c065534">operator[]</a> (long idx)</td></tr>
 <tr class="memdesc:aea3b781cd10d28770cb584c55c065534"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the "idx-th" device in the hierarchy.  <a href="classTango_1_1Group.html#aea3b781cd10d28770cb584c55c065534">More...</a><br /></td></tr>
 <tr class="separator:aea3b781cd10d28770cb584c55c065534"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75ddf85f5805e6e99656cbe554ecf96e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classTango_1_1Group.html">Group</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#a75ddf85f5805e6e99656cbe554ecf96e">get_group</a> (const std::string &amp;group_name)</td></tr>
@@ -160,11 +160,11 @@ a la Deviceproxy interface</h2></td></tr>
 <tr class="memitem:a8511861bcd0723b9e726e2bfaac6de3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTango_1_1GroupCmdReplyList.html">GroupCmdReplyList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#a8511861bcd0723b9e726e2bfaac6de3a">command_inout</a> (const std::string &amp;c, bool fwd=true)</td></tr>
 <tr class="memdesc:a8511861bcd0723b9e726e2bfaac6de3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a <a class="el" href="namespaceTango.html" title="=============================================================================">Tango</a> command on a group.  <a href="classTango_1_1Group.html#a8511861bcd0723b9e726e2bfaac6de3a">More...</a><br /></td></tr>
 <tr class="separator:a8511861bcd0723b9e726e2bfaac6de3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab02f116ab2fcaed5850b0301dd8095a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTango_1_1GroupCmdReplyList.html">GroupCmdReplyList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#ab02f116ab2fcaed5850b0301dd8095a7">command_inout</a> (const std::string &amp;c, const DeviceData &amp;d, bool fwd=true)</td></tr>
+<tr class="memitem:ab02f116ab2fcaed5850b0301dd8095a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTango_1_1GroupCmdReplyList.html">GroupCmdReplyList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#ab02f116ab2fcaed5850b0301dd8095a7">command_inout</a> (const std::string &amp;c, const <a class="el" href="classDeviceData.html">DeviceData</a> &amp;d, bool fwd=true)</td></tr>
 <tr class="memdesc:ab02f116ab2fcaed5850b0301dd8095a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a <a class="el" href="namespaceTango.html" title="=============================================================================">Tango</a> command with the same input data on a group.  <a href="classTango_1_1Group.html#ab02f116ab2fcaed5850b0301dd8095a7">More...</a><br /></td></tr>
 <tr class="separator:ab02f116ab2fcaed5850b0301dd8095a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae50c9d4d35e13d374dfc22afb6f6ab01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTango_1_1GroupCmdReplyList.html">GroupCmdReplyList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#ae50c9d4d35e13d374dfc22afb6f6ab01">command_inout</a> (const std::string &amp;c, const std::vector&lt; DeviceData &gt; &amp;d, bool fwd=true)</td></tr>
-<tr class="memdesc:ae50c9d4d35e13d374dfc22afb6f6ab01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a <a class="el" href="namespaceTango.html" title="=============================================================================">Tango</a> command with the different input data on a group (Using DeviceData class instances)  <a href="classTango_1_1Group.html#ae50c9d4d35e13d374dfc22afb6f6ab01">More...</a><br /></td></tr>
+<tr class="memitem:ae50c9d4d35e13d374dfc22afb6f6ab01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTango_1_1GroupCmdReplyList.html">GroupCmdReplyList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#ae50c9d4d35e13d374dfc22afb6f6ab01">command_inout</a> (const std::string &amp;c, const std::vector&lt; <a class="el" href="classDeviceData.html">DeviceData</a> &gt; &amp;d, bool fwd=true)</td></tr>
+<tr class="memdesc:ae50c9d4d35e13d374dfc22afb6f6ab01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a <a class="el" href="namespaceTango.html" title="=============================================================================">Tango</a> command with the different input data on a group (Using <a class="el" href="classDeviceData.html" title="Fundamental type for sending and receiving data from device commands.">DeviceData</a> class instances)  <a href="classTango_1_1Group.html#ae50c9d4d35e13d374dfc22afb6f6ab01">More...</a><br /></td></tr>
 <tr class="separator:ae50c9d4d35e13d374dfc22afb6f6ab01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad54f51f9f9bbac8ad686199245274bbf"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ad54f51f9f9bbac8ad686199245274bbf"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classTango_1_1GroupCmdReplyList.html">GroupCmdReplyList</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#ad54f51f9f9bbac8ad686199245274bbf">command_inout</a> (const std::string &amp;c, const std::vector&lt; T &gt; &amp;d, bool fwd=true)</td></tr>
@@ -173,11 +173,11 @@ a la Deviceproxy interface</h2></td></tr>
 <tr class="memitem:a53d95994ae0c6e3836e33f8acef6a038"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#a53d95994ae0c6e3836e33f8acef6a038">command_inout_asynch</a> (const std::string &amp;c, bool fgt=false, bool fwd=true)</td></tr>
 <tr class="memdesc:a53d95994ae0c6e3836e33f8acef6a038"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a <a class="el" href="namespaceTango.html" title="=============================================================================">Tango</a> command on each device in the group asynchronously.  <a href="classTango_1_1Group.html#a53d95994ae0c6e3836e33f8acef6a038">More...</a><br /></td></tr>
 <tr class="separator:a53d95994ae0c6e3836e33f8acef6a038"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2bd15b110efd88ffa47233ba4244a273"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#a2bd15b110efd88ffa47233ba4244a273">command_inout_asynch</a> (const std::string &amp;c, const DeviceData &amp;d, bool fgt=false, bool fwd=true)</td></tr>
+<tr class="memitem:a2bd15b110efd88ffa47233ba4244a273"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#a2bd15b110efd88ffa47233ba4244a273">command_inout_asynch</a> (const std::string &amp;c, const <a class="el" href="classDeviceData.html">DeviceData</a> &amp;d, bool fgt=false, bool fwd=true)</td></tr>
 <tr class="memdesc:a2bd15b110efd88ffa47233ba4244a273"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a <a class="el" href="namespaceTango.html" title="=============================================================================">Tango</a> command with same input data on each device in the group asynchronously.  <a href="classTango_1_1Group.html#a2bd15b110efd88ffa47233ba4244a273">More...</a><br /></td></tr>
 <tr class="separator:a2bd15b110efd88ffa47233ba4244a273"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a592a4fbe47296a6b27a142a38bbde6e8"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#a592a4fbe47296a6b27a142a38bbde6e8">command_inout_asynch</a> (const std::string &amp;c, const std::vector&lt; DeviceData &gt; &amp;d, bool fgt=false, bool fwd=true)</td></tr>
-<tr class="memdesc:a592a4fbe47296a6b27a142a38bbde6e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a <a class="el" href="namespaceTango.html" title="=============================================================================">Tango</a> command with different input data (using DeviceData object) on each device in the group asynchronously.  <a href="classTango_1_1Group.html#a592a4fbe47296a6b27a142a38bbde6e8">More...</a><br /></td></tr>
+<tr class="memitem:a592a4fbe47296a6b27a142a38bbde6e8"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#a592a4fbe47296a6b27a142a38bbde6e8">command_inout_asynch</a> (const std::string &amp;c, const std::vector&lt; <a class="el" href="classDeviceData.html">DeviceData</a> &gt; &amp;d, bool fgt=false, bool fwd=true)</td></tr>
+<tr class="memdesc:a592a4fbe47296a6b27a142a38bbde6e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a <a class="el" href="namespaceTango.html" title="=============================================================================">Tango</a> command with different input data (using <a class="el" href="classDeviceData.html" title="Fundamental type for sending and receiving data from device commands.">DeviceData</a> object) on each device in the group asynchronously.  <a href="classTango_1_1Group.html#a592a4fbe47296a6b27a142a38bbde6e8">More...</a><br /></td></tr>
 <tr class="separator:a592a4fbe47296a6b27a142a38bbde6e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17b53cb8fb55e3b96d056cb9971aaab4"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a17b53cb8fb55e3b96d056cb9971aaab4"><td class="memTemplItemLeft" align="right" valign="top">long&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#a17b53cb8fb55e3b96d056cb9971aaab4">command_inout_asynch</a> (const std::string &amp;c, const std::vector&lt; T &gt; &amp;d, bool fgt=false, bool fwd=true)</td></tr>
@@ -204,25 +204,25 @@ a la Deviceproxy interface</h2></td></tr>
 <tr class="memitem:ab1a83261058e5c52803e502c01380b79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTango_1_1GroupAttrReplyList.html">GroupAttrReplyList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#ab1a83261058e5c52803e502c01380b79">read_attributes_reply</a> (long req_id, long tmo_ms=0)</td></tr>
 <tr class="memdesc:ab1a83261058e5c52803e502c01380b79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the results of an asynchronous attributes reading.  <a href="classTango_1_1Group.html#ab1a83261058e5c52803e502c01380b79">More...</a><br /></td></tr>
 <tr class="separator:ab1a83261058e5c52803e502c01380b79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64da6f972d7dca15b192c66226e3d4c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTango_1_1GroupReplyList.html">GroupReplyList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#a64da6f972d7dca15b192c66226e3d4c7">write_attribute</a> (const DeviceAttribute &amp;d, bool fwd=true)</td></tr>
+<tr class="memitem:a64da6f972d7dca15b192c66226e3d4c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTango_1_1GroupReplyList.html">GroupReplyList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#a64da6f972d7dca15b192c66226e3d4c7">write_attribute</a> (const <a class="el" href="classDeviceAttribute.html">DeviceAttribute</a> &amp;d, bool fwd=true)</td></tr>
 <tr class="memdesc:a64da6f972d7dca15b192c66226e3d4c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes an attribute on each device in the group.  <a href="classTango_1_1Group.html#a64da6f972d7dca15b192c66226e3d4c7">More...</a><br /></td></tr>
 <tr class="separator:a64da6f972d7dca15b192c66226e3d4c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac05e427721de6903871b6c2dc505dec7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTango_1_1GroupReplyList.html">GroupReplyList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#ac05e427721de6903871b6c2dc505dec7">write_attribute</a> (const std::vector&lt; DeviceAttribute &gt; &amp;d, bool fwd=true)</td></tr>
-<tr class="memdesc:ac05e427721de6903871b6c2dc505dec7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes several attributes on each device in the group (using DeviceAttribute)  <a href="classTango_1_1Group.html#ac05e427721de6903871b6c2dc505dec7">More...</a><br /></td></tr>
+<tr class="memitem:ac05e427721de6903871b6c2dc505dec7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTango_1_1GroupReplyList.html">GroupReplyList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#ac05e427721de6903871b6c2dc505dec7">write_attribute</a> (const std::vector&lt; <a class="el" href="classDeviceAttribute.html">DeviceAttribute</a> &gt; &amp;d, bool fwd=true)</td></tr>
+<tr class="memdesc:ac05e427721de6903871b6c2dc505dec7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes several attributes on each device in the group (using <a class="el" href="classDeviceAttribute.html" title="Fundamental type for sending an dreceiving data to and from device attributes.">DeviceAttribute</a>)  <a href="classTango_1_1Group.html#ac05e427721de6903871b6c2dc505dec7">More...</a><br /></td></tr>
 <tr class="separator:ac05e427721de6903871b6c2dc505dec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b513a1564a1a4f9e5482dfcef528d0c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a5b513a1564a1a4f9e5482dfcef528d0c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classTango_1_1GroupReplyList.html">GroupReplyList</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#a5b513a1564a1a4f9e5482dfcef528d0c">write_attribute</a> (const std::string &amp;n, const std::vector&lt; T &gt; &amp;d, bool fwd=true)</td></tr>
 <tr class="memdesc:a5b513a1564a1a4f9e5482dfcef528d0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes one attributes on each device in the group with specific value per device.  <a href="classTango_1_1Group.html#a5b513a1564a1a4f9e5482dfcef528d0c">More...</a><br /></td></tr>
 <tr class="separator:a5b513a1564a1a4f9e5482dfcef528d0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ead1c134a086855da1e809aa8f13d03"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#a2ead1c134a086855da1e809aa8f13d03">write_attribute_asynch</a> (const DeviceAttribute &amp;d, bool fwd=true)</td></tr>
+<tr class="memitem:a2ead1c134a086855da1e809aa8f13d03"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#a2ead1c134a086855da1e809aa8f13d03">write_attribute_asynch</a> (const <a class="el" href="classDeviceAttribute.html">DeviceAttribute</a> &amp;d, bool fwd=true)</td></tr>
 <tr class="memdesc:a2ead1c134a086855da1e809aa8f13d03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes an attribute on each device in the group asynchronously.  <a href="classTango_1_1Group.html#a2ead1c134a086855da1e809aa8f13d03">More...</a><br /></td></tr>
 <tr class="separator:a2ead1c134a086855da1e809aa8f13d03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2edbe29d80b0c686840c01bac7304197"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#a2edbe29d80b0c686840c01bac7304197">write_attribute_asynch</a> (const std::vector&lt; DeviceAttribute &gt; &amp;d, bool fwd=true)</td></tr>
+<tr class="memitem:a2edbe29d80b0c686840c01bac7304197"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#a2edbe29d80b0c686840c01bac7304197">write_attribute_asynch</a> (const std::vector&lt; <a class="el" href="classDeviceAttribute.html">DeviceAttribute</a> &gt; &amp;d, bool fwd=true)</td></tr>
 <tr class="memdesc:a2edbe29d80b0c686840c01bac7304197"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes several attributes on each device in the group asynchronously.  <a href="classTango_1_1Group.html#a2edbe29d80b0c686840c01bac7304197">More...</a><br /></td></tr>
 <tr class="separator:a2edbe29d80b0c686840c01bac7304197"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a187f0b29e02bf82b74f21b55c4252d62"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a187f0b29e02bf82b74f21b55c4252d62"><td class="memTemplItemLeft" align="right" valign="top">long&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#a187f0b29e02bf82b74f21b55c4252d62">write_attribute_asynch</a> (const std::string &amp;a, const std::vector&lt; T &gt; &amp;d, bool fwd=true)</td></tr>
-<tr class="memdesc:a187f0b29e02bf82b74f21b55c4252d62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes an attribute on each device in the group asynchronously (Without DeviceAttribute data)  <a href="classTango_1_1Group.html#a187f0b29e02bf82b74f21b55c4252d62">More...</a><br /></td></tr>
+<tr class="memdesc:a187f0b29e02bf82b74f21b55c4252d62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes an attribute on each device in the group asynchronously (Without <a class="el" href="classDeviceAttribute.html" title="Fundamental type for sending an dreceiving data to and from device attributes.">DeviceAttribute</a> data)  <a href="classTango_1_1Group.html#a187f0b29e02bf82b74f21b55c4252d62">More...</a><br /></td></tr>
 <tr class="separator:a187f0b29e02bf82b74f21b55c4252d62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa300f78715baea10d390b7e7489e0506"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTango_1_1GroupReplyList.html">GroupReplyList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1Group.html#aa300f78715baea10d390b7e7489e0506">write_attribute_reply</a> (long req_id, long tmo_ms=0)</td></tr>
 <tr class="memdesc:aa300f78715baea10d390b7e7489e0506"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the acknowledgements of an asynchronous attribute writing.  <a href="classTango_1_1Group.html#aa300f78715baea10d390b7e7489e0506">More...</a><br /></td></tr>
@@ -283,7 +283,7 @@ a la Deviceproxy interface</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Create a <a class="el" href="classTango_1_1Group.html" title="High level class allowing the user to handle Tango group.">Group</a> instance. </p>
-<p>Delete a group and all its elements. Be aware that a group always gets the ownership of its children and deletes themwhen it is itself deleted. Therefore, never try to delete a <a class="el" href="classTango_1_1Group.html" title="High level class allowing the user to handle Tango group.">Group</a> (respectively a DeviceProxy) returned by a call to <em><a class="el" href="classTango_1_1Group.html#a75ddf85f5805e6e99656cbe554ecf96e" title="Returns a reference to the specified group.">Tango::Group::get_group()</a></em> (respectively to <em><a class="el" href="classTango_1_1Group.html#adc7d5db7e814e378bf30f940865885b8" title="Returns a reference to the specified device.">Tango::Group::get_device()</a></em>). Use the <em><a class="el" href="classTango_1_1Group.html#acd7763925b6e27ccf237b13fa7f98009" title="Removes any group or device which name matches the specified pattern.">Tango::Group::remove()</a></em> method instead. </p>
+<p>Delete a group and all its elements. Be aware that a group always gets the ownership of its children and deletes themwhen it is itself deleted. Therefore, never try to delete a <a class="el" href="classTango_1_1Group.html" title="High level class allowing the user to handle Tango group.">Group</a> (respectively a <a class="el" href="classDeviceProxy.html" title="High level class which provides the client with an easy-to-use interface to TANGO devices.">DeviceProxy</a>) returned by a call to <em><a class="el" href="classTango_1_1Group.html#a75ddf85f5805e6e99656cbe554ecf96e" title="Returns a reference to the specified group.">Tango::Group::get_group()</a></em> (respectively to <em><a class="el" href="classTango_1_1Group.html#adc7d5db7e814e378bf30f940865885b8" title="Returns a reference to the specified device.">Tango::Group::get_device()</a></em>). Use the <em><a class="el" href="classTango_1_1Group.html#acd7763925b6e27ccf237b13fa7f98009" title="Removes any group or device which name matches the specified pattern.">Tango::Group::remove()</a></em> method instead. </p>
 
 </div>
 </div>
@@ -480,7 +480,7 @@ a la Deviceproxy interface</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const DeviceData &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classDeviceData.html">DeviceData</a> &amp;&#160;</td>
           <td class="paramname"><em>d</em>, </td>
         </tr>
         <tr>
@@ -526,7 +526,7 @@ a la Deviceproxy interface</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; DeviceData &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classDeviceData.html">DeviceData</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>d</em>, </td>
         </tr>
         <tr>
@@ -543,7 +543,7 @@ a la Deviceproxy interface</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Executes a <a class="el" href="namespaceTango.html" title="=============================================================================">Tango</a> command with the different input data on a group (Using DeviceData class instances) </p>
+<p>Executes a <a class="el" href="namespaceTango.html" title="=============================================================================">Tango</a> command with the different input data on a group (Using <a class="el" href="classDeviceData.html" title="Fundamental type for sending and receiving data from device commands.">DeviceData</a> class instances) </p>
 <p>Executes a <a class="el" href="namespaceTango.html" title="=============================================================================">Tango</a> command on each device in the group. This method is synchronous and does not return until replies are obtained or timeouts occurred. This implementation of command_inout allows passing a specific input argument to each device in the group. In order to use this form of command_inout, the user must have an "a priori" and "perfect" knowledge of the devices order in the group. <br  />
  The parameter c is the name of the command. The std::vector d contains a specific argument value for each device in the group. Its size must equal Group::get_size(fwd). Otherwise, an exception is thrown. The order of the argument values must follows the order of the devices in the group (d[0] =&gt; 1st device, d[1] =&gt; 2nd device and so on). If fwd is set to true (the default), the request is also forwarded to subgroups. Otherwise, it is only applied to the local set of devices. <a class="el" href="classTango_1_1Command.html" title="This class is a class representing a command in the TANGO device server pattern.">Command</a> results are returned in a <a class="el" href="classTango_1_1GroupCmdReplyList.html" title="Group reply for a command execution.">GroupCmdReplyList</a>. See Obtaining command results (Chpater 4.7.3.1 in <a href="http://www.esrf.eu/computing/cs/tango/tango_doc/kernel_doc/ds_prog/index.html" target="new">Tango book</a>) for details. See also Case 3 of executing a command (Chapter 4.7.3.5 in <a href="http://www.esrf.eu/computing/cs/tango/tango_doc/kernel_doc/ds_prog/index.html" target="new">Tango book</a>) for an example of this special form of command_inout.</p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -674,7 +674,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const DeviceData &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classDeviceData.html">DeviceData</a> &amp;&#160;</td>
           <td class="paramname"><em>d</em>, </td>
         </tr>
         <tr>
@@ -727,7 +727,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; DeviceData &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classDeviceData.html">DeviceData</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>d</em>, </td>
         </tr>
         <tr>
@@ -750,7 +750,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Executes a <a class="el" href="namespaceTango.html" title="=============================================================================">Tango</a> command with different input data (using DeviceData object) on each device in the group asynchronously. </p>
+<p>Executes a <a class="el" href="namespaceTango.html" title="=============================================================================">Tango</a> command with different input data (using <a class="el" href="classDeviceData.html" title="Fundamental type for sending and receiving data from device commands.">DeviceData</a> object) on each device in the group asynchronously. </p>
 <p>Executes a <a class="el" href="namespaceTango.html" title="=============================================================================">Tango</a> command on each device in the group asynchronously. The method send the request to all devices and return immediately. Pass the returned request id to <a class="el" href="classTango_1_1Group.html#abed06d2a84d479a13c2e98781af748e8" title="Returns the results of an asynchronous command.">Group::command_inout_reply</a> to obtain the results. This implementation of command_inout allows passing a specific input argument to each device in the group. In order to use this form of command_inout_asynch, the user must have an "a priori" and "perfect" knowledge of the devices order in the group. The parameter c is the name of the command. The std::vector d contains a specific argument value for each device in the group. Its size must equal Group::get_size(fwd). Otherwise, an exception is thrown. The order of the argument values must follows the order of the devices in the group (d[0] =&gt; 1st device, d[1] =&gt; 2nd device and so on). The parameter fgt is a fire and forget flag. If set to true, it means that no reply is expected (i.e. the caller does not care about it and will not even try to get it). A false default value is provided. If fwd is set to true (the default), the request is also forwarded to subgroups. Otherwise, it is only applied to the local set of devices. See Case 3 of Executing a command (Chapter 4.7.3.5 in <a href="http://www.esrf.eu/computing/cs/tango/tango_doc/kernel_doc/ds_prog/index.html" target="new">Tango book</a>) for an example of this special form of command_inout.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -922,7 +922,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual DeviceProxy* Tango::Group::get_device </td>
+          <td class="memname">virtual <a class="el" href="classDeviceProxy.html">DeviceProxy</a>* Tango::Group::get_device </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>device_name</em></td><td>)</td>
@@ -949,7 +949,7 @@ template&lt;typename T &gt; </div>
 <div class="line">{</div>
 <div class="line">   <span class="comment">// my/device/01 belongs to the group but can’t be reached</span></div>
 <div class="line">}</div>
-</div><!-- fragment --><p> The request is systematically forwarded to subgroups (i.e. if no device named device_name could be found in the local set of devices, the request is forwarded to subgroups). Be aware that a group always gets the ownership of its children and deletes them when it is itself deleted. Therefore, never try to delete a DeviceProxy returned by the <a class="el" href="classTango_1_1Group.html#adc7d5db7e814e378bf30f940865885b8" title="Returns a reference to the specified device.">Group::get_device()</a>method. Use the <a class="el" href="classTango_1_1Group.html#acd7763925b6e27ccf237b13fa7f98009" title="Removes any group or device which name matches the specified pattern.">Tango::Group::remove()</a> method instead.</p>
+</div><!-- fragment --><p> The request is systematically forwarded to subgroups (i.e. if no device named device_name could be found in the local set of devices, the request is forwarded to subgroups). Be aware that a group always gets the ownership of its children and deletes them when it is itself deleted. Therefore, never try to delete a <a class="el" href="classDeviceProxy.html" title="High level class which provides the client with an easy-to-use interface to TANGO devices.">DeviceProxy</a> returned by the <a class="el" href="classTango_1_1Group.html#adc7d5db7e814e378bf30f940865885b8" title="Returns a reference to the specified device.">Group::get_device()</a>method. Use the <a class="el" href="classTango_1_1Group.html#acd7763925b6e27ccf237b13fa7f98009" title="Removes any group or device which name matches the specified pattern.">Tango::Group::remove()</a> method instead.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">device_name</td><td>The device name </td></tr>
@@ -970,7 +970,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual DeviceProxy* Tango::Group::get_device </td>
+          <td class="memname">virtual <a class="el" href="classDeviceProxy.html">DeviceProxy</a>* Tango::Group::get_device </td>
           <td>(</td>
           <td class="paramtype">long&#160;</td>
           <td class="paramname"><em>idx</em></td><td>)</td>
@@ -985,7 +985,7 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Returns a reference to the "idx-th" device in the hierarchy. </p>
-<p>Returns a reference to the "idx-th" device in the hierarchy or NULL if the hierarchy contains less than "idx" devices. This method may throw an exception in case the specified device belongs to the group but can’t be reached (not registered, down...). See previous example. See also the Tango::DeviceProxy class documentation for details. The request is systematically forwarded to subgroups (i.e. if the local set of devices contains less than "idx" devices, the request is forwarded to subgroups). Be aware that a group always gets the ownership of its children and deletes them when it is itself deleted. Therefore, never try to delete a DeviceProxy returned by the <a class="el" href="classTango_1_1Group.html#adc7d5db7e814e378bf30f940865885b8" title="Returns a reference to the specified device.">Group::get_device()</a>method. Use the <a class="el" href="classTango_1_1Group.html#acd7763925b6e27ccf237b13fa7f98009" title="Removes any group or device which name matches the specified pattern.">Tango::Group::remove()</a> method instead.</p>
+<p>Returns a reference to the "idx-th" device in the hierarchy or NULL if the hierarchy contains less than "idx" devices. This method may throw an exception in case the specified device belongs to the group but can’t be reached (not registered, down...). See previous example. See also the Tango::DeviceProxy class documentation for details. The request is systematically forwarded to subgroups (i.e. if the local set of devices contains less than "idx" devices, the request is forwarded to subgroups). Be aware that a group always gets the ownership of its children and deletes them when it is itself deleted. Therefore, never try to delete a <a class="el" href="classDeviceProxy.html" title="High level class which provides the client with an easy-to-use interface to TANGO devices.">DeviceProxy</a> returned by the <a class="el" href="classTango_1_1Group.html#adc7d5db7e814e378bf30f940865885b8" title="Returns a reference to the specified device.">Group::get_device()</a>method. Use the <a class="el" href="classTango_1_1Group.html#acd7763925b6e27ccf237b13fa7f98009" title="Removes any group or device which name matches the specified pattern.">Tango::Group::remove()</a> method instead.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">idx</td><td>The device name </td></tr>
@@ -1137,7 +1137,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual DeviceProxy* Tango::Group::operator[] </td>
+          <td class="memname">virtual <a class="el" href="classDeviceProxy.html">DeviceProxy</a>* Tango::Group::operator[] </td>
           <td>(</td>
           <td class="paramtype">long&#160;</td>
           <td class="paramname"><em>idx</em></td><td>)</td>
@@ -1152,7 +1152,7 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Returns a reference to the "idx-th" device in the hierarchy. </p>
-<p>Returns a reference to the "idx-th" device in the hierarchy or NULL if the hierarchy contains less than "idx" devices. See the Tango::DeviceProxy class documentation for details. The request is systematically forwarded to subgroups (i.e. if the local set of devices contains less than "idx" devices, the request is forwarded to subgroups). Be aware that a group always gets the ownership of its children and deletes them when it is itself deleted. Therefore, never try to delete a DeviceProxy returned by the <a class="el" href="classTango_1_1Group.html#adc7d5db7e814e378bf30f940865885b8" title="Returns a reference to the specified device.">Group::get_device()</a>method. Use the <a class="el" href="classTango_1_1Group.html#acd7763925b6e27ccf237b13fa7f98009" title="Removes any group or device which name matches the specified pattern.">Tango::Group::remove()</a> method instead.</p>
+<p>Returns a reference to the "idx-th" device in the hierarchy or NULL if the hierarchy contains less than "idx" devices. See the Tango::DeviceProxy class documentation for details. The request is systematically forwarded to subgroups (i.e. if the local set of devices contains less than "idx" devices, the request is forwarded to subgroups). Be aware that a group always gets the ownership of its children and deletes them when it is itself deleted. Therefore, never try to delete a <a class="el" href="classDeviceProxy.html" title="High level class which provides the client with an easy-to-use interface to TANGO devices.">DeviceProxy</a> returned by the <a class="el" href="classTango_1_1Group.html#adc7d5db7e814e378bf30f940865885b8" title="Returns a reference to the specified device.">Group::get_device()</a>method. Use the <a class="el" href="classTango_1_1Group.html#acd7763925b6e27ccf237b13fa7f98009" title="Removes any group or device which name matches the specified pattern.">Tango::Group::remove()</a> method instead.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">idx</td><td>The device name </td></tr>
@@ -1610,7 +1610,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classTango_1_1GroupReplyList.html">GroupReplyList</a> Tango::Group::write_attribute </td>
           <td>(</td>
-          <td class="paramtype">const DeviceAttribute &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classDeviceAttribute.html">DeviceAttribute</a> &amp;&#160;</td>
           <td class="paramname"><em>d</em>, </td>
         </tr>
         <tr>
@@ -1705,7 +1705,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classTango_1_1GroupReplyList.html">GroupReplyList</a> Tango::Group::write_attribute </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; DeviceAttribute &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classDeviceAttribute.html">DeviceAttribute</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>d</em>, </td>
         </tr>
         <tr>
@@ -1722,7 +1722,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Writes several attributes on each device in the group (using DeviceAttribute) </p>
+<p>Writes several attributes on each device in the group (using <a class="el" href="classDeviceAttribute.html" title="Fundamental type for sending an dreceiving data to and from device attributes.">DeviceAttribute</a>) </p>
 <p>Writes several attributes on each device in the group. This method is synchronous and does not return until acknowledgements are obtained or timeouts occurred. The first parameter d is a vector of <a class="el" href="namespaceTango.html" title="=============================================================================">Tango</a> generic container for attribute carrying both the attribute name and the value. See the Tango::DeviceAttribute documentation for details. If fwd is set to true (the default) request is forwarded to subgroups. Otherwise, it is only applied to the local set of devices. Acknowledgements are returned in a <a class="el" href="classTango_1_1GroupReplyList.html" title="Group reply for a write_attribute execution.">GroupReplyList</a>. See Obtaining acknowledgements (Chapter 4.7.5.1 in <a href="http://www.esrf.eu/computing/cs/tango/tango_doc/kernel_doc/ds_prog/index.html" target="new">Tango book</a>) for details. See also Case 2 of Writing an attribute (Chapter 4.7.5.3 in <a href="http://www.esrf.eu/computing/cs/tango/tango_doc/kernel_doc/ds_prog/index.html" target="new">Tango book</a>) for an example.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1744,7 +1744,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">long Tango::Group::write_attribute_asynch </td>
           <td>(</td>
-          <td class="paramtype">const DeviceAttribute &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classDeviceAttribute.html">DeviceAttribute</a> &amp;&#160;</td>
           <td class="paramname"><em>d</em>, </td>
         </tr>
         <tr>
@@ -1808,7 +1808,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Writes an attribute on each device in the group asynchronously (Without DeviceAttribute data) </p>
+<p>Writes an attribute on each device in the group asynchronously (Without <a class="el" href="classDeviceAttribute.html" title="Fundamental type for sending an dreceiving data to and from device attributes.">DeviceAttribute</a> data) </p>
 <p>Writes an attribute on each device in the group asynchronously. The method sends the request to all devices and returns immediately. Pass the returned request id to <a class="el" href="classTango_1_1Group.html#aa300f78715baea10d390b7e7489e0506" title="Returns the acknowledgements of an asynchronous attribute writing.">Group::write_attribute_reply()</a> to obtain the acknowledgements. This implementation of write_attribute_asynch allows writing a specific value to each device in the group. In order to use this form of write_attribute_asynch, the user must have an "a priori" and "perfect" knowledge of the devices order in the group. The parameter a is the name of the attribute. The std::vector d contains a specific value for each device in the group. Since this method is a template, d is able to contain any <a class="el" href="namespaceTango.html" title="=============================================================================">Tango</a> attribute type. Its size must equal Group::get_size(fwd). Otherwise, an exception is thrown. The order of the attribute values must follows the order of the devices in the group (d[0] =&gt; 1st device, d[1] =&gt; 2nd device and so on). If fwd is set to true (the default) request is forwarded to subgroups. Otherwise, it is only applied to the local set of devices. See Case2 of Writing an attribute (Chapter 4.7.5.3 in <a href="http://www.esrf.eu/computing/cs/tango/tango_doc/kernel_doc/ds_prog/index.html" target="new">Tango book</a>) for an example.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
@@ -1837,7 +1837,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">long Tango::Group::write_attribute_asynch </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; DeviceAttribute &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classDeviceAttribute.html">DeviceAttribute</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>d</em>, </td>
         </tr>
         <tr>
@@ -1917,7 +1917,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceTango.html">Tango</a></li><li class="navelem"><a class="el" href="classTango_1_1Group.html">Group</a></li>
-    <li class="footer">Generated on Fri Sep 25 2020 13:19:18 for Tango Core Classes Reference by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.19 </li>
+    <li class="footer">Generated on Thu Oct 8 2020 13:28:13 for Tango Core Classes Reference by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.19 </li>
   </ul>
 </div>
 </body>

@@ -1,0 +1,4 @@
+<map id="Tango::DataReadyEventData" name="Tango::DataReadyEventData">
+<area shape="rect" id="node1" title="Data ready event callback execution data." alt="" coords="5,95,212,121"/>
+<area shape="rect" id="node2" href="$classDeviceProxy.html" title="High level class which provides the client with an easy&#45;to&#45;use interface to TANGO devices." alt="" coords="58,5,159,32"/>
+</map>

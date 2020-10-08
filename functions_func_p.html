@@ -86,8 +86,14 @@ $(document).ready(function(){initNavTree('functions_func_p.html',''); initResiza
 &#160;
 
 <h3><a id="index_p"></a>- p -</h3><ul>
+<li>pending_asynch_call()
+: <a class="el" href="classApiUtil.html#ae48129a647121c07c50b78c285e35968">ApiUtil</a>
+, <a class="el" href="classDeviceProxy.html#a837daa1734027ceb114d6bcf0c8a913b">DeviceProxy</a>
+</li>
 <li>ping()
-: <a class="el" href="classTango_1_1Group.html#aa7cd5c6f1be1a85c244c7a4ec99081ec">Tango::Group</a>
+: <a class="el" href="classAttributeProxy.html#aaae01f2574c47aefd170ad6073dc6091">AttributeProxy</a>
+, <a class="el" href="classDeviceProxy.html#a87a5b44473ae1bb18bba6fa9e535d119">DeviceProxy</a>
+, <a class="el" href="classTango_1_1Group.html#aa7cd5c6f1be1a85c244c7a4ec99081ec">Tango::Group</a>
 </li>
 <li>Pipe()
 : <a class="el" href="classTango_1_1Pipe.html#a48f8fa0e8e169fd8f278407b771dc27d">Tango::Pipe</a>
@@ -95,11 +101,19 @@ $(document).ready(function(){initNavTree('functions_func_p.html',''); initResiza
 <li>pipe_factory()
 : <a class="el" href="classTango_1_1DeviceClass.html#a09321e4257b799709d77f40ace03242a">Tango::DeviceClass</a>
 </li>
+<li>poll()
+: <a class="el" href="classAttributeProxy.html#ae5cf0ff41931350d1335b615fab57eff">AttributeProxy</a>
+</li>
 <li>poll_attribute()
-: <a class="el" href="classTango_1_1DeviceImpl.html#a6a748b41d85396d38cd004a30a10bda1">Tango::DeviceImpl</a>
+: <a class="el" href="classDeviceProxy.html#ab71a0a4f5af2ca19e397eb961b464470">DeviceProxy</a>
+, <a class="el" href="classTango_1_1DeviceImpl.html#a6a748b41d85396d38cd004a30a10bda1">Tango::DeviceImpl</a>
 </li>
 <li>poll_command()
-: <a class="el" href="classTango_1_1DeviceImpl.html#a96a247ceb8f389dbb02e8e693847fcdf">Tango::DeviceImpl</a>
+: <a class="el" href="classDeviceProxy.html#afe1886af0a3533820fb40d370d66a2b2">DeviceProxy</a>
+, <a class="el" href="classTango_1_1DeviceImpl.html#a96a247ceb8f389dbb02e8e693847fcdf">Tango::DeviceImpl</a>
+</li>
+<li>polling_status()
+: <a class="el" href="classDeviceProxy.html#a491b8ecdfce0596872e8484d6738664f">DeviceProxy</a>
 </li>
 <li>print_error_stack()
 : <a class="el" href="classTango_1_1Except.html#aba359c6be26a171c1d9ebd143f7a9630">Tango::Except</a>
@@ -112,32 +126,62 @@ $(document).ready(function(){initNavTree('functions_func_p.html',''); initResiza
 , <a class="el" href="classTango_1_1CmdHistoryStack.html#a355ba8abdd8a382b3c0aa09def8a57ca">Tango::CmdHistoryStack&lt; T &gt;</a>
 </li>
 <li>push_archive_event()
-: <a class="el" href="classTango_1_1DeviceImpl.html#a8b2f401ee83720c7d51887617258b8a1">Tango::DeviceImpl</a>
+: <a class="el" href="classTango_1_1DeviceImpl.html#abba65795f545e527852cdb9c0629a641">Tango::DeviceImpl</a>
 </li>
 <li>push_change_event()
-: <a class="el" href="classTango_1_1DeviceImpl.html#ae747f15a580daaa2977402598b2e5550">Tango::DeviceImpl</a>
+: <a class="el" href="classTango_1_1DeviceImpl.html#af08f98bd4d9f40b3359b1a54ddfeae30">Tango::DeviceImpl</a>
 </li>
 <li>push_data_ready_event()
 : <a class="el" href="classTango_1_1DeviceImpl.html#a0de42a80d6d1fc464b142dae308671b4">Tango::DeviceImpl</a>
 </li>
 <li>push_event()
-: <a class="el" href="classTango_1_1CallBack.html#acf0ff8451e6fd851f8724237d4fad4a8">Tango::CallBack</a>
-, <a class="el" href="classTango_1_1DeviceImpl.html#aee05a449a784d6d7c5fef37c573ef831">Tango::DeviceImpl</a>
+: <a class="el" href="classTango_1_1CallBack.html#a6a794901a14f08b1cda918e1d18acce9">Tango::CallBack</a>
+, <a class="el" href="classTango_1_1DeviceImpl.html#a8be4ec9b7b5c9d085a47da0679cbc7fb">Tango::DeviceImpl</a>
 </li>
 <li>push_pipe_event()
 : <a class="el" href="classTango_1_1DeviceImpl.html#aedd422cbede721279f2bbac705e34017">Tango::DeviceImpl</a>
 </li>
+<li>put_attribute_alias()
+: <a class="el" href="classDatabase.html#a0a2b410604263d117fb9d2fe32a4afce">Database</a>
+</li>
 <li>put_attribute_property()
-: <a class="el" href="classTango_1_1DbClass.html#a068555bb06fa9510e1ae0f81bd4e06ff">Tango::DbClass</a>
+: <a class="el" href="classDbDevice.html#a947812b0f7622c0e7d3fca17be03e191">DbDevice</a>
+, <a class="el" href="classTango_1_1DbClass.html#a068555bb06fa9510e1ae0f81bd4e06ff">Tango::DbClass</a>
+</li>
+<li>put_class_attribute_property()
+: <a class="el" href="classDatabase.html#af9b6f29305118d6174cefb3ae91b8545">Database</a>
+</li>
+<li>put_class_pipe_property()
+: <a class="el" href="classDatabase.html#a3b5032c28989a002eaa227071c4d6911">Database</a>
+</li>
+<li>put_class_property()
+: <a class="el" href="classDatabase.html#af5a0e0281e0dbf2aa950fd7bc252ef68">Database</a>
+</li>
+<li>put_device_alias()
+: <a class="el" href="classDatabase.html#a56f204976f5c26c2390546ad4b49f3b4">Database</a>
+</li>
+<li>put_device_attribute_property()
+: <a class="el" href="classDatabase.html#acb16f06d0ba12a5132504806953702f1">Database</a>
+</li>
+<li>put_device_pipe_property()
+: <a class="el" href="classDatabase.html#ae45cf9a814cc1733ce650f2a3ae67213">Database</a>
+</li>
+<li>put_device_property()
+: <a class="el" href="classDatabase.html#a924582bf0a369d49ed7eb9f78f8d450f">Database</a>
 </li>
 <li>put_in_database()
 : <a class="el" href="classTango_1_1DbServerData.html#a642eaefe3d22329cb415d6893a388c9d">Tango::DbServerData</a>
 </li>
 <li>put_pipe_property()
-: <a class="el" href="classTango_1_1DbClass.html#a3c28ab0e673e20431db58f7dadbe219c">Tango::DbClass</a>
+: <a class="el" href="classDbDevice.html#a09761546b86b517791ccb99f66764535">DbDevice</a>
+, <a class="el" href="classTango_1_1DbClass.html#a3c28ab0e673e20431db58f7dadbe219c">Tango::DbClass</a>
 </li>
 <li>put_property()
-: <a class="el" href="classTango_1_1DbClass.html#a276eeccb2af23e7223109e94f57d9484">Tango::DbClass</a>
+: <a class="el" href="classAttributeProxy.html#a213bdcf5dc893999a59d9c0715b5984a">AttributeProxy</a>
+, <a class="el" href="classDatabase.html#a0a017dc07bddc64d2cf464215532b9b2">Database</a>
+, <a class="el" href="classDbDevice.html#aa83cebe5e4e2b1fb927a37d72413389a">DbDevice</a>
+, <a class="el" href="classDeviceProxy.html#ade52e1ded93e94c290fc24b588ea0ef5">DeviceProxy</a>
+, <a class="el" href="classTango_1_1DbClass.html#a276eeccb2af23e7223109e94f57d9484">Tango::DbClass</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -145,7 +189,7 @@ $(document).ready(function(){initNavTree('functions_func_p.html',''); initResiza
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Sep 25 2020 13:19:19 for Tango Core Classes Reference by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.19 </li>
+    <li class="footer">Generated on Thu Oct 8 2020 13:28:14 for Tango Core Classes Reference by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.19 </li>
   </ul>
 </div>
 </body>

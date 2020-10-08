@@ -1,0 +1,4 @@
+<map id="Tango::CmdDoneEvent" name="Tango::CmdDoneEvent">
+<area shape="rect" id="node1" title="Asynchronous command execution callback data." alt="" coords="5,95,173,121"/>
+<area shape="rect" id="node2" href="$classDeviceData.html" title="Fundamental type for sending and receiving data from device commands." alt="" coords="42,5,137,32"/>
+</map>

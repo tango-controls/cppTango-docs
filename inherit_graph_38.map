@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classTango_1_1Except.html" title="Container class for all exception related methods." alt="" coords="5,5,117,32"/>
+<area shape="rect" id="node1" href="$structTango_1_1DevCommandInfo.html" title="Base structure for command information." alt="" coords="5,5,188,32"/>
+<area shape="rect" id="node2" href="$structTango_1_1CommandInfo.html" title="Command information data extension." alt="" coords="236,5,393,32"/>
 </map>

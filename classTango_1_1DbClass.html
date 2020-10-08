@@ -101,7 +101,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afc0cd676677e89b14f27318588f64d23"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1DbClass.html#afc0cd676677e89b14f27318588f64d23">DbClass</a> (string class_name)</td></tr>
 <tr class="memdesc:afc0cd676677e89b14f27318588f64d23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="classTango_1_1DbClass.html" title="A database object for a class which can be used to query or modify class properties.">DbClass</a> instance.  <a href="classTango_1_1DbClass.html#afc0cd676677e89b14f27318588f64d23">More...</a><br /></td></tr>
 <tr class="separator:afc0cd676677e89b14f27318588f64d23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3cc824aa4a5dd46a97254019a4e9600"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1DbClass.html#ab3cc824aa4a5dd46a97254019a4e9600">DbClass</a> (string class_name, Database *db)</td></tr>
+<tr class="memitem:ab3cc824aa4a5dd46a97254019a4e9600"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTango_1_1DbClass.html#ab3cc824aa4a5dd46a97254019a4e9600">DbClass</a> (string class_name, <a class="el" href="classDatabase.html">Database</a> *db)</td></tr>
 <tr class="memdesc:ab3cc824aa4a5dd46a97254019a4e9600"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="classTango_1_1DbClass.html" title="A database object for a class which can be used to query or modify class properties.">DbClass</a> instance using a specified database.  <a href="classTango_1_1DbClass.html#ab3cc824aa4a5dd46a97254019a4e9600">More...</a><br /></td></tr>
 <tr class="separator:ab3cc824aa4a5dd46a97254019a4e9600"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -180,7 +180,7 @@ Property oriented methods</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Database *&#160;</td>
+          <td class="paramtype"><a class="el" href="classDatabase.html">Database</a> *&#160;</td>
           <td class="paramname"><em>db</em>&#160;</td>
         </tr>
         <tr>
@@ -192,7 +192,7 @@ Property oriented methods</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Create a <a class="el" href="classTango_1_1DbClass.html" title="A database object for a class which can be used to query or modify class properties.">DbClass</a> instance using a specified database. </p>
-<p>A constructor for a <a class="el" href="classTango_1_1DbClass.html" title="A database object for a class which can be used to query or modify class properties.">DbClass</a> object for the <a class="el" href="namespaceTango.html" title="=============================================================================">Tango</a> class in the specified database. This method reuses the Database supplied by the programmer.</p>
+<p>A constructor for a <a class="el" href="classTango_1_1DbClass.html" title="A database object for a class which can be used to query or modify class properties.">DbClass</a> object for the <a class="el" href="namespaceTango.html" title="=============================================================================">Tango</a> class in the specified database. This method reuses the <a class="el" href="classDatabase.html" title="A high level object which contains the link to the database.">Database</a> supplied by the programmer.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">class_name</td><td>The <a class="el" href="namespaceTango.html" title="=============================================================================">Tango</a> class name </td></tr>
@@ -221,7 +221,7 @@ Property oriented methods</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Remove class attribute property from database. </p>
-<p>Delete all properties for the list of specified attributes for this class in the database. See Database::delete_class_attribute_property() for an example of how to specify the properties.</p>
+<p>Delete all properties for the list of specified attributes for this class in the database. See <a class="el" href="classDatabase.html#a4bd2bb12d4cf6ec70df764aa64c01de8" title="Delete class attribute property from database.">Database::delete_class_attribute_property()</a> for an example of how to specify the properties.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">db</td><td>Property name(s)</td></tr>
@@ -254,7 +254,7 @@ Property oriented methods</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Remove class pipe property from database. </p>
-<p>Delete all properties for the list of specified pipes for this class in the database. See Database::delete_class_pipe_property() for an example of how to specify the properties.</p>
+<p>Delete all properties for the list of specified pipes for this class in the database. See <a class="el" href="classDatabase.html#a0f42b3160236fef158ca84c2c6a4cd6f" title="Delete class pipe property from database.">Database::delete_class_pipe_property()</a> for an example of how to specify the properties.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">db</td><td>Property name(s)</td></tr>
@@ -287,7 +287,7 @@ Property oriented methods</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Remove class property from database. </p>
-<p>Delete the list of specified properties for this class in the database. See Database::delete_property() for an example of how to specify the properties.</p>
+<p>Delete the list of specified properties for this class in the database. See <a class="el" href="classDatabase.html#af21aa48ac731abd36928a09bb2e39fb6" title="Delete object property from database.">Database::delete_property()</a> for an example of how to specify the properties.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">db</td><td>Property name(s)</td></tr>
@@ -320,7 +320,7 @@ Property oriented methods</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get class attribute property from database. </p>
-<p>Query the database for the list of attribute properties of this class. See Database::get_class_attribute_property() for an example of how to specify and retrieve the properties.</p>
+<p>Query the database for the list of attribute properties of this class. See <a class="el" href="classDatabase.html#a539f0520c2e46577f27421173dc46dcb" title="Get class attribute property value.">Database::get_class_attribute_property()</a> for an example of how to specify and retrieve the properties.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">db</td><td>Property name(s) and value</td></tr>
@@ -353,7 +353,7 @@ Property oriented methods</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get class pipe property from database. </p>
-<p>Query the database for the list of pipe properties of this class. See Database::get_class_pipe_property() for an example of how to specify and retrieve the properties.</p>
+<p>Query the database for the list of pipe properties of this class. See <a class="el" href="classDatabase.html#a6a63abfc0afe4fd8b8765b81127a514f" title="Get class pipe property value.">Database::get_class_pipe_property()</a> for an example of how to specify and retrieve the properties.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">db</td><td>Property name(s) and value</td></tr>
@@ -386,7 +386,7 @@ Property oriented methods</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get class property from database. </p>
-<p>Query the database for the list of properties of this class. See Database::get_class_property() for an example of how to specify and retrieve the properties.</p>
+<p>Query the database for the list of properties of this class. See <a class="el" href="classDatabase.html#a206df2896ae22d14713fb295f1aba2c9" title="Get class property value.">Database::get_class_property()</a> for an example of how to specify and retrieve the properties.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">db</td><td>Property name(s) and value</td></tr>
@@ -419,7 +419,7 @@ Property oriented methods</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Update class attribute property in database. </p>
-<p>Update the list of attribute properties for this class in the database. See Database::put_class_attribute_property() for an example of how to specify the properties.</p>
+<p>Update the list of attribute properties for this class in the database. See <a class="el" href="classDatabase.html#af9b6f29305118d6174cefb3ae91b8545" title="Put class attribute property value in database.">Database::put_class_attribute_property()</a> for an example of how to specify the properties.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">db</td><td>Property name(s) and value</td></tr>
@@ -452,7 +452,7 @@ Property oriented methods</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Update class pipe property in database. </p>
-<p>Update the list of pipe properties for this class in the database. See Database::put_class_pipe_property() for an example of how to specify the properties.</p>
+<p>Update the list of pipe properties for this class in the database. See <a class="el" href="classDatabase.html#a3b5032c28989a002eaa227071c4d6911" title="Put class pipe property value in database.">Database::put_class_pipe_property()</a> for an example of how to specify the properties.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">db</td><td>Property name(s) and value</td></tr>
@@ -485,7 +485,7 @@ Property oriented methods</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Update class property in database. </p>
-<p>Update the list of properties for this class in the database. See Database::put_class_property() for an example of how to specify the properties.</p>
+<p>Update the list of properties for this class in the database. See <a class="el" href="classDatabase.html#af5a0e0281e0dbf2aa950fd7bc252ef68" title="Put class property value in database.">Database::put_class_property()</a> for an example of how to specify the properties.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">db</td><td>Property name(s) and value</td></tr>
@@ -510,7 +510,7 @@ Property oriented methods</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceTango.html">Tango</a></li><li class="navelem"><a class="el" href="classTango_1_1DbClass.html">DbClass</a></li>
-    <li class="footer">Generated on Fri Sep 25 2020 13:19:18 for Tango Core Classes Reference by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.19 </li>
+    <li class="footer">Generated on Thu Oct 8 2020 13:28:13 for Tango Core Classes Reference by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.19 </li>
   </ul>
 </div>
 </body>

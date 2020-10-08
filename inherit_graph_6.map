@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structTango_1_1AttributeEventInfo.html" title="Attribute event configuration." alt="" coords="5,5,185,32"/>
+<area shape="rect" id="node1" href="$classDeviceAttribute.html" title="Fundamental type for sending an dreceiving data to and from device attributes." alt="" coords="5,5,121,32"/>
+<area shape="rect" id="node2" href="$classTango_1_1DeviceAttributeHistory.html" title="Fundamental type for receiving data from device attribute polling buffers." alt="" coords="169,5,376,32"/>
 </map>
